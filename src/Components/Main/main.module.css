@@ -2,7 +2,7 @@
 
 .container{
     width: 100vw;
-    height: 88vh;
+    height: 100vh;
     background-image: url('https://priyansh42.github.io/IT-Company-Website/images/img1.jpg');
     background-size: cover;
     display: flex;
@@ -56,5 +56,15 @@
 }
 .section{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
+    margin: 10px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.overView_heading{
+    font-weight: 500;
+    font-family: "Montserrat", "sans-serrif";
+    font-size: 90px;
+    margin-top: 30px;
 }

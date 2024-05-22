@@ -12,18 +12,20 @@ const Main = () => {
     <>
       <div className={styles.container}>
         <div className={styles.texts}>
-          <h1>
-            <span style={{color:'red', background:'transparent'}}>"</span>
-            Empowerment through technology, Impact through Solutions
-            <span style={{color:'red', background:'transparent'}}>"</span>
-          </h1>
-          <h2>Driving Digital experience, together</h2>
+          <h1> Empowerment through <span style={{background:'transparent', color:'red'}}>Technology</span>, Impact through <span style={{background:'transparent', color:'red'}}>Solutions</span></h1>
           <button className={styles.explore} onClick={scrollToSection}>
             Explore More &#x2193;
           </button>
         </div>
       </div>
       <div id='section' ref={sectionRef} className={styles.section}>
+        <h1 className={styles.overView_heading}>Overview</h1>
+        <div className='overView_para'>
+
+        </div>
+        <div className={styles.overView_img}>
+
+        </div>
       </div>
     </>
   );
