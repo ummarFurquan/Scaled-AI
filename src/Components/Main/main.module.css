@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.container{
+    width: 100vw;
+    height: 88vh;
+    background-image: url('https://priyansh42.github.io/IT-Company-Website/images/img1.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 1rem;
+    position: relative;
+    overflow:  hidden !important;
+}
+
+.texts{
+    background: transparent;
+    position: absolute;
+    top: 150px
+}
+.container h1{
+    background: transparent;
+    font-size: 3rem;
+    font-family: "Montserrat", "sans-serrif";
+    color: rgb(255, 255, 255);
+}
+
+.container h2{
+    background: transparent;
+    font-family: "Montserrat", "sans-serrif";
+    font-weight: 1.5rem;
+    margin-top: 10px;
+    color: black
+}
+
+.container button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    font-family: "Montserrat", "sans-serrif";
+    font-weight: 200;
+    margin-top: 20px;
+    border-radius: 50px;
+    color: black;
+    background: transparent;
+    transition: 0.1s ease-in-out;
+    scale: 1;
+}
+
+.container button:hover{
+    border: 1px solid red;
+    color: red;
+    scale: 1;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+}
