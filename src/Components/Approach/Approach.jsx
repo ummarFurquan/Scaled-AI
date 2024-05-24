@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Main = () => {
+const Approach = () => {
   return (
     <div className='container mx-5 my-5'>
-      Main
+      Approach
     </div>
   )
 }
 
-export default Main
+export default Approach
