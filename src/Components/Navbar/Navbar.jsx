@@ -20,19 +20,21 @@ const Navbar = () => {
                 <Link to="/" className="nav-link active mx-2" style={{marginRight:'45px'}} aria-current="page">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/about" className="nav-link active mx-2">About Us</Link>
+                <a href="/about" className="nav-link active mx-2">About Us</a>
               </li>
               <li className="nav-item">
-                <Link to="/approach" className="nav-link active mx-2">Our Approach</Link>
+                <a  href="/approach" className="nav-link active mx-2">Our Approach</a>
               </li>
               <li className="nav-item">
-                <Link to="/services" className="nav-link active mx-2">Services</Link>
+                <a  href="/services" className="nav-link active mx-2">Services</a>
               </li>
               <li className="nav-item">
-                <Link to="/capabilities" className="nav-link active mx-2">Capabilities</Link>
+                <a href="/capabilities" className="nav-link active mx-2">Capabilities</a>
               </li>
             </ul>
-            <button className="btn btn-danger" style={{ borderRadius: '20px' }}>Contact Us</button>
+            <button className="btn btn-danger" style={{ borderRadius: '20px' }}>
+                <a href='/contact' style={{color:'white', textDecoration:'none'}}>Contact Us</a>
+                </button>
           </div>
         </div>
       </nav>
