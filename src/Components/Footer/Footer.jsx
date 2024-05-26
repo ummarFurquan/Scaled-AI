@@ -7,7 +7,7 @@ const Footer = () => {
   return (
 
     <>
-<footer className="deneb_footer">
+<footer className="deneb_footer footer navbarfixed-bottom">
 	<div className="widget_wrapper" style={{backgroundColor:'#f8f9fa'}}>
 		<div className="container">
 			<div className="row">
@@ -31,10 +31,10 @@ const Footer = () => {
 							<h4>Links</h4>
 						</div>
 						<ul>
-							<li><Link to='/about'><a>About Us</a></Link></li>
-							<li><Link to='/approach'><a>Our Apporach</a></Link></li>
-							<li><Link to='/about'><a>Services</a></Link></li>
-							<li><Link to='/about'><a>Capabilities</a></Link></li>
+							<li><a href='/about'>About Us</a></li>
+							<li><a href='/approach'>Our Approach</a></li>
+							<li><a href='/services'>Serivces</a></li>
+							<li><a href='/capabilites'>Capabilities</a></li>
 						</ul>
 					</div>
 				</div>

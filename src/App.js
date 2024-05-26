@@ -1,11 +1,11 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import {  Routes, Route, Navigate, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Main/Hero';
 import About from './Components/About/About';
 import Approach from './Components/Approach/Approach';
 import Footer from './Components/Footer/Footer';
-
+import Contact from './Components/Contact/Contact'
 function App() {
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
         <Route path='/' element={<Hero/>}></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='/approach' element={<Approach/>}></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
       <Route 
           path='*'
           element={<Navigate to='/' replace />}></Route>
