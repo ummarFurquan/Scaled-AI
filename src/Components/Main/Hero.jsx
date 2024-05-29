@@ -18,7 +18,7 @@ const Hero = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit porro aut animi sunt nulla, placeat eaque ad dolores voluptate nostrum.
                         </div>
                         <div className="cta">
-                            <a href='#' className='btn btn-danger btn-sm shadow-none'>Explore More</a>
+                            <a href='/' className='btn btn-danger btn-sm shadow-none'>Explore More</a>
                         </div>
                     </div>
                 </div>
