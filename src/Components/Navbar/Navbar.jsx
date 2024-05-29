@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from '../../assets/logo.jpg'
-import { Link } from 'react-router-dom'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Navbar = () => {
@@ -32,9 +31,11 @@ const Navbar = () => {
                 <a href="/capabilities" className="nav-link active mx-2">Capabilities</a>
               </li>
             </ul>
+            <a href='/contact' style={{color:'white', textDecoration:'none'}}>
             <button className="btn btn-danger" style={{ borderRadius: '20px' }}>
-                <a href='/contact' style={{color:'white', textDecoration:'none'}}>Contact Us</a>
+                Contact Us
                 </button>
+                </a>
           </div>
         </div>
       </nav>
