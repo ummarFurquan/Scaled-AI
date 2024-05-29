@@ -1,12 +1,11 @@
 import React from 'react'
 import Logo from '../../assets/logo.jpg'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary border" style={{ backgroundColor: 'wheat', boxShadow:' rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px'}}>
-        <div className="container">'
+        <div className="container">
           <a href="/" className="navbar">
             <img src={Logo} alt='Agilitnet Logo' style={{ width: '140px', mixBlendMode: 'darken' }} />
           </a>

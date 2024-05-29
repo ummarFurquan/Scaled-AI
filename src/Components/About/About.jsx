@@ -1,23 +1,54 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
   const aboutUsContent = "<b>Agilitnet</b> is a leading technology solutions provider dedicated to empowering government agencies to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.";
 
   const valuesContent = `
-  <p><strong>TEAM</strong></p>
-  <ul style={{lineHeight:'10px'}}>
-    <li style={{lineHeight:'20px'}}><strong>T - Trust:</strong> Trust is the cornerstone of our relationships, both internally and externally. We foster an environment where trust is earned through honesty, transparency, and reliability.</li>
-    <li style={{lineHeight:'20px'}}><strong>E - Empowerment:</strong> We empower our team to take initiative, make decisions, and innovate. By providing autonomy and support, we enable individuals to reach their full potential and contribute to the success of the team.</li>
-    <li style={{lineHeight:'20px'}}><strong>A - Agility:</strong> Agility is our ability to adapt and respond quickly to changing circumstances and opportunities. We embrace flexibility and nimbleness, allowing us to stay ahead of the curve and seize new possibilities.</li>
-    <li style={{lineHeight:'20px'}}><strong>M - Mutual Respect:</strong> We value diversity and treat every individual with dignity and respect. By fostering an inclusive culture where differences are celebrated, we create a sense of belonging and mutual appreciation within our team.</li>
-  </ul>
+  <li style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
+  <div style="width: 60px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">T</div>
+  <div style="flex-grow: 1;">
+    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+      <strong>Trust:</strong> is the cornerstone of our relationships, both internally and externally. We foster an environment where trust is earned through honesty, transparency, and reliability.
+    </div>
+  </div>
+</li>
+
+<li style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
+  <div style="width: 75px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">E</div>
+  <div style="flex-grow: 1;">
+    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+      <strong>Empowerment:</strong> We empower our team to take initiative, make decisions, and innovate. By providing autonomy and support, we enable individuals to reach their full potential and contribute to the success of the team.
+    </div>
+  </div>
+</li>
+
+<li style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
+  <div style="width: 75px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">A</div>
+  <div style="flex-grow: 1;">
+    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+      <strong>Agility:</strong> Agility is our ability to adapt and respond quickly to changing circumstances and opportunities. We embrace flexibility and nimbleness, allowing us to stay ahead of the curve and seize new possibilities.
+    </div>
+  </div>
+</li>
+
+<li style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
+  <div style="width: 75px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">M</div>
+  <div style="flex-grow: 3;">
+    <div style="display: flex; flex-direction: column; align-items: flex-start;">
+      <strong>Mutual Respect:</strong> We value diversity and treat every individual with dignity and respect. By fostering an inclusive culture where differences are celebrated, we create a sense of belonging and mutual appreciation within our team.
+    </div>
+  </div>
+</li>
+
 `;
+    // <img src='https://media.istockphoto.com/id/1166212364/photo/team-acronym-concept.jpg?s=612x612&w=0&k=20&c=e-OQUV_uRUzOJhcLjJuKiQYZp6KsrxfhBW2eu6hES6E=' alt='Team Image' style="margin-top: 20px;"/>
+
 
 const MissionContent = 'Our mission is to deliver <b>cutting-edge technology</b> that enable customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life.';
   const VisionContent = "Our Vision is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development."
-const [content, setContent] = useState(aboutUsContent);
-  const [activeButton, setActiveButton] = useState('aboutUs');
+const [content, setContent] = useState(valuesContent);
+  const [activeButton, setActiveButton] = useState('values');
 
   const handleButtonClick = (buttonName, buttonContent) => {
     setActiveButton(buttonName);
@@ -29,7 +60,7 @@ const [content, setContent] = useState(aboutUsContent);
   return (
     <div className="container" style={{marginBottom:'100px'}}>
       <div className="image container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-        <img src='https://st.depositphotos.com/2274151/4841/i/450/depositphotos_48410095-stock-photo-sample-blue-square-grungy-stamp.jpg' alt='About Image' />
+        <img src='https://st.depositphotos.com/2274151/4841/i/450/depositphotos_48410095-stock-photo-sample-blue-square-grungy-stamp.jpg' alt='About' />
         <div className="btn-container my-3">
           <button className={`btn btn-danger mx-5 ${activeButton === 'aboutUs' ? 'active' : ''}`} onClick={() => handleButtonClick('aboutUs', aboutUsContent)}>ABOUT US</button>
           <button className={`btn btn-danger mx-5 ${activeButton === 'OurMission' ? 'active' : ''}`} onClick={() => handleButtonClick('OurMission', MissionContent)}>OUR MISSION</button>
