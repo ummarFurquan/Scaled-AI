@@ -1,7 +1,6 @@
 import React from 'react'
 import './Footer.css'
 import Logo from '../../assets/logo.jpg'
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -18,10 +17,10 @@ const Footer = () => {
 						</div>
 						<p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, euismod nec tortor praesent consequat urna.</p>
 						<ul className="social">
-							<li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i className="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i className="fab fa-instagram"></i></a></li>
-							<li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+							<li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
+							<li><a href="/"><i className="fab fa-twitter"></i></a></li>
+							<li><a href="/"><i className="fab fa-instagram"></i></a></li>
+							<li><a href="/"><i className="fab fa-linkedin"></i></a></li>
 						</ul>
 					</div>
 				</div>
