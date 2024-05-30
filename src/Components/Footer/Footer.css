@@ -23,7 +23,10 @@
     margin-right: 10px;
 }
 .deneb_footer .widget_wrapper .widegt_about .social li a {
-    display: block;
+    display: flex;
+    text-decoration: none;
+    scale: 1.2;
+    margin: 5px;
     width: 50px;
     height: 20px;
     line-height: 80px;
