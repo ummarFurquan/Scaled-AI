@@ -27,10 +27,10 @@ const Contact = () => {
         .then((res) => {
           if (res.status === 200 && res.data) {
             setSuccess(true);
+            toast.success("We have received your message! Thank you.");
             setName("");
             setEmail("");
             setMessage("");
-            toast.success("We have received your message! Thank you.");
             
             setTimeout(() => {
               setSuccess(false);

@@ -2,9 +2,16 @@ import React, { useState} from 'react';
 import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
-  const aboutUsContent = `<div style="overflow-y:hidden;"><b>Agilitnet</b> is a leading technology solutions provider dedicated to empowering government agencies to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</div>`;
+  const aboutUsContent = `<div style="overflow-y:hidden;">
+  <div style="display: flex; justify-content:center; align-items:center;">
+  <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px;">About Us</h1>
+  </div>
+  <b>Agilitnet</b> is a leading technology solutions provider dedicated to empowering government agencies to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</div>`;
 
   const valuesContent = `
+  <div style="display: flex; justify-content:center; align-items:center;">
+  <h1 style="overflow-y:hidden; overflow-x:hidden;">What we value?</h1>
+  </div>
   <li style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
   <div style="width: 60px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">T</div>
   <div style="flex-grow: 1;">
@@ -62,13 +69,13 @@ const [content, setContent] = useState(aboutUsContent);
       <div className="image container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
         <img src='https://st.depositphotos.com/2274151/4841/i/450/depositphotos_48410095-stock-photo-sample-blue-square-grungy-stamp.jpg' alt='About' />
         <div className="btn-container my-3">
-          <button className={`btn btn-danger mx-5 ${activeButton === 'aboutUs' ? 'active' : ''}`} onClick={() => handleButtonClick('aboutUs', aboutUsContent)}>ABOUT US</button>
-          <button className={`btn btn-danger mx-5 ${activeButton === 'OurMission' ? 'active' : ''}`} onClick={() => handleButtonClick('OurMission', MissionContent)}>OUR MISSION</button>
-          <button className={`btn btn-danger mx-5 ${activeButton === 'OurVision' ? 'active' : ''}`} onClick={() => handleButtonClick('OurVision', VisionContent)}>OUR VISION</button>
-          <button className={`btn btn-danger mx-5 ${activeButton === 'values' ? 'active' : ''}`} onClick={() => handleButtonClick('values', valuesContent)}>WHAT WE VALUE</button>
+          <button className={`btn btn-outline-danger mx-5 ${activeButton === 'aboutUs' ? 'active' : ''}`} onClick={() => handleButtonClick('aboutUs', aboutUsContent)}>ABOUT US</button>
+          <button className={`btn btn-outline-danger mx-5 ${activeButton === 'OurMission' ? 'active' : ''}`} onClick={() => handleButtonClick('OurMission', MissionContent)}>OUR MISSION</button>
+          <button className={`btn btn-outline-danger mx-5 ${activeButton === 'OurVision' ? 'active' : ''}`} onClick={() => handleButtonClick('OurVision', VisionContent)}>OUR VISION</button>
+          <button className={`btn btn-outline-danger mx-5 ${activeButton === 'values' ? 'active' : ''}`} onClick={() => handleButtonClick('values', valuesContent)}>WHAT WE VALUE</button>
         </div>
         <Fade>
-          <div className="para-container my-3" style={{ borderLeft: '2px solid grey', backgroundColor:'lightgray', padding: '10px' }}>
+          <div className="para-container my-3" style={{ borderLeft: '2px solid grey', backgroundColor:'#e5e5e5', padding: '10px' }}>
             <h5 dangerouslySetInnerHTML={{ __html: content }}></h5>
           </div>
         </Fade>

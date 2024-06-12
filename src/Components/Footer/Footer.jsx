@@ -1,19 +1,19 @@
 import React from 'react'
 import './Footer.css'
-import Logo from '../../assets/logo.jpg'
+import Logo from '../../assets/AGILITNET_Final_Logo.png'
 
 const Footer = () => {
   return (
 
     <>
 <footer className="deneb_footer footer navbarfixed-bottom" >
-	<div className="widget_wrapper" style={{backgroundColor:'#818589'}}>
+	<div className="widget_wrapper" style={{backgroundColor:'#e5e5e5'}}>
 		<div className="container">
 			<div className="row">
 				<div className="col-lg-4 col-md-6 col-12">
 					<div className="widget widegt_about">
 						<div className="widget_title">
-							<img src={Logo} style={{width:'200px', mixBlendMode:'color-burn'}} className="img-fluid" alt=""/>
+							<img src={Logo} style={{width:'250px'}} className="img-fluid" alt=""/>
 						</div>
 						<p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, euismod nec tortor praesent consequat urna.</p>
 						<ul className="social">
