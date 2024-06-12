@@ -49,7 +49,6 @@ const About = () => {
 </li>
 
 `;
-    // <img src='https://media.istockphoto.com/id/1166212364/photo/team-acronym-concept.jpg?s=612x612&w=0&k=20&c=e-OQUV_uRUzOJhcLjJuKiQYZp6KsrxfhBW2eu6hES6E=' alt='Team Image' style="margin-top: 20px;"/>
 
 
 const MissionContent = `<div style="overflow-y:hidden;">Our mission is to deliver <b>cutting-edge technology</b> that enable customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life.</div>`;
