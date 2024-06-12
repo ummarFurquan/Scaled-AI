@@ -18,7 +18,7 @@ const Main = () => {
           <div className="about-text">
             <h2 style={{overflow: 'hidden'}}>Who are we?</h2>
             <p><span style={{color: 'red',  fontSize:'30px'}}>Agilitnet</span> is a leading technology solutions provider dedicated to empowering government agencies to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</p>
-            <h3>Why Choose Us?</h3>
+            <h3 style={{overflow: 'hidden'}}>Why Choose Us?</h3>
             <div className="list-style" >
               <div className="col-lg-6 col-sm-6 col-xs-12">
                 <ol>
