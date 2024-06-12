@@ -17,10 +17,7 @@ const Footer = () => {
 						</div>
 						<p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, euismod nec tortor praesent consequat urna.</p>
 						<ul className="social">
-							<li><a href="/"><i className="fab fa-facebook-f"></i></a></li>
-							<li><a href="/"><i className="fab fa-twitter"></i></a></li>
-							<li><a href="/"><i className="fab fa-instagram"></i></a></li>
-							<li><a href="/"><i className="fab fa-linkedin"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/agilitnet/" target='_blank'><i className="fab fa-linkedin"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -48,8 +45,7 @@ const Footer = () => {
 									<i className="fas fa-phone-alt"></i>
 								</div>
 								<div className="info">
-									<p><a href="tel:+919246147999">1800-121-3637</a></p>
-									<p><a href="tel:+919246147999">+91 924-614-7999</a></p>
+									<p><a href="tel:646-240-3641">646-240-3641</a></p>
 								</div>
 							</div>
 							<div className="single_info">

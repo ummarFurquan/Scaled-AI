@@ -8,6 +8,7 @@ import { Fade } from 'react-awesome-reveal';
 const Main = () => {
   return (
     <>
+    <Fade>
       <div id="about">
         <div className="container">
           <div className="row">
@@ -37,6 +38,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      </Fade>
       <Fade>
       
       <div className="container">
@@ -48,7 +50,7 @@ const Main = () => {
             <div className="card card-block">
               <img className="card-img-top" alt="100%x180" src="https://i.pinimg.com/originals/7d/32/c6/7d32c6a963d45d62b7cc2a70e2b72a2a.png" style={{ height: '200px', width: '100%', display: 'block' }} />
               <div className="card-body">
-                <h3 className="card-title">Cloud & Infrastructure</h3>
+                <h3 className="card-title" style={{ overflow: 'hidden' }}>Cloud & Infrastructure</h3>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -66,7 +68,7 @@ const Main = () => {
             <div className="card card-block">
               <img className="card-img-top" alt="100%x180" src="https://static.vecteezy.com/system/resources/previews/015/999/739/original/data-analytics-icon-free-vector.jpg" style={{ height: '180px', width: '90%', margin:'20px', display:"block", }} />
               <div className="card-body">
-                <h3 className="card-title">Data Analytics</h3>
+                <h3 className="card-title" style={{ overflow: 'hidden' }}>Data Analytics</h3>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
@@ -77,7 +79,7 @@ const Main = () => {
             <div className="card card-block">
               <img className="card-img-top" alt="100%x180" src="https://imageio.forbes.com/specials-images/imageserve/64880883c11f32f4258d81e4/The-5-Biggest-Misconceptions-About-Digital-Transformation/960x0.jpg?height=503&width=711&fit=bounds" style={{ height: '180px', width: '100%', display: 'block' }} />
               <div className="card-body">
-                <h3 className="card-title">Digital Transformation</h3>
+                <h3 className="card-title" style={{ overflow: 'hidden' }}>Digital Transformation</h3>
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
