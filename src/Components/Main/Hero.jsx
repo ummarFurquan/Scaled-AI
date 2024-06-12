@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal"
 const Hero = () => {
   return (
     <>
-    <Fade direction='up'>
+    <Fade>
     <section className='hero' style={{margin:'5rem 0'}}>
         <div className='container'>
             <div className="row">
@@ -15,7 +15,7 @@ const Hero = () => {
                         Empowerment through <span style={{color:'red'}}>Technology</span>, Impact through <span style={{color:'red'}}>Solutions</span>
                         </div>
                         <div className="text-hero-regular" style={{margin:'24px 0'}}>
-                        At <span style={{color:'red'}}>Agilitnet Solutions</span>, we leverage technology to drive positive change and create lasting impact. Our mission is to empower individuals, businesses, and communities with innovative solutions that address real-world challenges. Through cutting-edge advancements and a commitment to excellence, we enhance productivity, foster growth, and improve quality of life. Join us in making a meaningful difference, one solution at a time.
+                        In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At <span style={{color:'red'}}> Agilitnet</span>, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize in seizing new opportunities and attaining sustainable growth.
                         </div>
                         <div className="cta">
                             <a href='#about' className='btn btn-danger btn-sm shadow-none'>Explore More</a>
