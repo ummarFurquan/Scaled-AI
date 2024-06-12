@@ -32,6 +32,11 @@
     margin-bottom: 1.5rem;
 }
 
+.label{
+    padding: 0;
+    margin: 0;
+}
+
 .contact-form {
     display: grid;
     row-gap: 3rem;

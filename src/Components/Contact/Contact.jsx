@@ -11,35 +11,45 @@ const Contact = () => {
   const [message, setMessage] = useState("");
 
   const [success, setSuccess] = useState(false);
+
   const handleContactForm = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (name && email && message) {
-      if (isEmail(email)) {
-        const responseData = {
-          name: name,
-          email: email,
-          message: message,
-        };
+  if (name && email && message) {
+    if (isEmail(email)) {
+      const responseData = {
+        name: name,
+        email: email,
+        message: message
+      };
 
-        axios.post(contactsData.sheetAPI, responseData).then((res) => {
-          setSuccess(true);
+      axios.post(contactsData.sheetAPI, responseData)
+        .then((res) => {
+          if (res.status === 200 && res.data) {
+            setSuccess(true);
             setName("");
-          setEmail("");
-          setMessage("");
-          toast.success("We have recieved your message! Thank You");
-
-          setTimeout(()=>{
-            setSuccess(false)
-          },2000);
+            setEmail("");
+            setMessage("");
+            toast.success("We have received your message! Thank you.");
+            
+            setTimeout(() => {
+              setSuccess(false);
+            }, 2000);
+          } else {
+            toast.error("Something went wrong, please try again.");
+          }
+        })
+        .catch((error) => {
+          toast.error("An error occurred, please try again.");
         });
-      } else {
-        toast.error("Invalid Email, Try a valid One");
-      }
     } else {
-      toast.error("Enter all input fields");
+      toast.error("Invalid Email, please enter a valid one.");
     }
-  };
+  } else {
+    toast.error("Please fill in all input fields.");
+  }
+};
+
   return (
     <>
       <div className="contain">
@@ -61,7 +71,6 @@ const Contact = () => {
           <div className="contact-container">
             <div className="form-container">
               <form
-                action=""
                 className="contact-form"
                 onSubmit={handleContactForm}
               >
@@ -75,7 +84,7 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="Your Email"
-                  //   required
+                    // required
                   name="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -85,7 +94,7 @@ const Contact = () => {
                   cols="20"
                   rows="15"
                   placeholder="Your Queries/Message..."
-                  //   required
+                    // required
                   type="text"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
