@@ -18,7 +18,7 @@ const Hero = () => {
                         In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At <span style={{color:'red'}}> Agilitnet</span>, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize in seizing new opportunities and attaining sustainable growth.
                         </div>
                         <div className="cta">
-                            <a href='#about' className='btn btn-danger btn-sm shadow-none'>Explore More</a>
+                            <a href='#about' className='btn btn-danger btn-lg shadow-none'>Explore More</a>
                         </div>
                     </div>
                 </div>

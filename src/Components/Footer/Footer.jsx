@@ -3,6 +3,8 @@ import './Footer.css'
 import Logo from '../../assets/AGILITNET_Final_Logo.png'
 
 const Footer = () => {
+
+	const date = new Date().getFullYear()
   return (
 
     <>
@@ -17,7 +19,7 @@ const Footer = () => {
 						</div>
 						<p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, euismod nec tortor praesent consequat urna.</p>
 						<ul className="social">
-							<li><a href="https://www.linkedin.com/company/agilitnet/" target='_blank'><i className="fab fa-linkedin"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/agilitnet/" rel="noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -53,8 +55,7 @@ const Footer = () => {
 									<i className="fas fa-envelope"></i>
 								</div>
 								<div className="info">
-									<p><a href="mailto:info@deneb.com">info@deneb.com</a></p>
-									<p><a href="mailto:services@deneb.com">services@deneb.com</a></p>
+									<p><a href="mailto:jay.natarajan@agilitnet.com">jay.natarajan@agilitnet.com</a></p>
 								</div>
 							</div>
 							<div className="single_info">
@@ -62,7 +63,9 @@ const Footer = () => {
 									<i className="fas fa-map-marker-alt"></i>
 								</div>
 								<div className="info">
-									<p>125, Park street aven, Brocklyn,<span>Newyork.</span></p>
+									<a>
+									<p>20029 Presidents Cup TE,<span>Ashburn VA-20147.</span></p>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -76,7 +79,7 @@ const Footer = () => {
 			<div className="row">
 				<div className="col-lg-12">
 					<div className="copyright_text">
-						<p>Copyright &copy; 2020 All rights reserved.</p>
+						<p>Copyright &copy; {date} All rights reserved.</p>
 					</div>
 				</div>
 			</div>

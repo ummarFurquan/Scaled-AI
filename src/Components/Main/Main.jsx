@@ -51,7 +51,7 @@ const Main = () => {
               <img className="card-img-top" alt="100%x180" src="https://i.pinimg.com/originals/7d/32/c6/7d32c6a963d45d62b7cc2a70e2b72a2a.png" style={{ height: '200px', width: '100%', display: 'block' }} />
               <div className="card-body">
                 <h3 className="card-title" style={{ overflow: 'hidden' }}>Cloud & Infrastructure</h3>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text">Cloud Infrastructure is the collection of hardware and software elements such as computing power, networking, storage, and virtualization resources needed to enable cloud computing. Cloud infrastructure types usually also include a user interface (UI) for managing these virtual resources.</p>
               </div>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Main = () => {
               <img className="card-img-top" alt="100%x180" src="https://st.depositphotos.com/60430652/53667/v/450/depositphotos_536678434-stock-illustration-cybersecurity-icon-thin-linear-cybersecurity.jpg" style={{ height: '180px', width: '70%', marginLeft:'60px', display: 'block' }} />
               <div className="card-body">
                 <h3 className="card-title" style={{overflow:'hidden'}}>Cybersecurity, Risk & Compliance</h3>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text">At its core, cybersecurity compliance means adhering to standards and regulatory requirements set forth by some agency, law or authority group. Organizations must achieve compliance by establishing risk-based controls that protect the confidentiality, integrity and availability (CIA) of information.</p>
               </div>
             </div>
           </div>
