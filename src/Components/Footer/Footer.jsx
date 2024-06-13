@@ -63,7 +63,7 @@ const Footer = () => {
 									<i className="fas fa-map-marker-alt"></i>
 								</div>
 								<div className="info">
-									<a>
+									<a href='https://tinyurl.com/5d7a99mt' style={{textDecoration:'none', color:'black'}} target='_blank' rel='noreferrer'>
 									<p>20029 Presidents Cup TE,<span>Ashburn VA-20147.</span></p>
 									</a>
 								</div>
