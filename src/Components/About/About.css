@@ -1,44 +1,132 @@
 /* Add this CSS to your stylesheet or within a <style> tag in your component */
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.para-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .value-item {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .image img {
-    max-width: 100%;
-    height: auto;
+  .circle {
+    margin-bottom: 10px;
+    margin-right: 0;
+    width: 30px;
+    height: 30px;
   }
-  
-  .btn-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .heading {
+    overflow: hidden;
   }
-  
   .btn {
-    margin: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
   }
-  
-  .para-container {
-    width: 100%;
-    max-width: 800px;
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .value-item {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  @media (max-width: 768px) {
-    .value-item {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .circle {
-      margin-bottom: 10px;
-      margin-right: 0;
-      width: 10px;
-      height: 20px;
-    }
-    .heading {
-      overflow: hidden;
-    }
+  .circle {
+    margin-bottom: 10px;
+    margin-right: 0;
+    width: 40px;
+    height: 40px;
   }
-  
+  .heading {
+    overflow: hidden;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 7px 14px;
+  }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .value-item {
+    flex-direction: row;
+    align-items: center;
+  }
+  .circle {
+    margin-bottom: 0;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .heading {
+    overflow: hidden;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .value-item {
+    flex-direction: row;
+    align-items: center;
+  }
+  .circle {
+    margin-bottom: 0;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  .heading {
+    overflow: hidden;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 12px 24px;
+  }
+}
+
+/* Extra large devices (extra large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .value-item {
+    flex-direction: row;
+    align-items: center;
+  }
+  .circle {
+    margin-bottom: 0;
+    margin-right: 20px;
+    width: 75px;
+    height: 75px;
+  }
+  .heading {
+    overflow: hidden;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}

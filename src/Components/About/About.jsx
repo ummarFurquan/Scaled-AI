@@ -14,7 +14,7 @@ const About = () => {
   <h1 style="overflow-y:hidden; overflow-x:hidden;">What we value?</h1>
   </div>
   <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="circle" style="width: 60px; height: 60px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">T</div>
+  <div class="circle" style="width: 100px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">T</div>
   <div style="flex-grow: 1;">
     <div  style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden; overflow-x:hidden">
       <strong class="heading">Trust:</strong> is the cornerstone of our relationships, both internally and externally. We foster an environment where trust is earned through honesty, transparency, and reliability.
@@ -23,7 +23,7 @@ const About = () => {
 </li>
 
 <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="circle" style="width: 60px; height: 60px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">E</div>
+  <div class="circle" style="width: 100px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">E</div>
   <div style="flex-grow: 1;">
     <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
       <strong class="heading">Empowerment:</strong> We empower our team to take initiative, make decisions, and innovate. By providing autonomy and support, we enable individuals to reach their full potential and contribute to the success of the team.
@@ -32,7 +32,7 @@ const About = () => {
 </li>
 
 <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="circle" style="width: 60px; height: 60px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">A</div>
+  <div class="circle" style="width: 100px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">A</div>
   <div style="flex-grow: 1;">
     <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
       <strong class="heading">Agility:</strong> Agility is our ability to adapt and respond quickly to changing circumstances and opportunities. We embrace flexibility and nimbleness, allowing us to stay ahead of the curve and seize new possibilities.
@@ -41,7 +41,7 @@ const About = () => {
 </li>
 
 <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="circle" style="width: 60px; height: 60px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px; ">M</div>
+  <div class="circle" style="width: 100px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px; ">M</div>
   <div style="flex-grow: 3;">
     <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
       <strong class="heading">Mutual Respect:</strong> We value diversity and treat every individual with dignity and respect. By fostering an inclusive culture where differences are celebrated, we create a sense of belonging and mutual appreciation within our team.
