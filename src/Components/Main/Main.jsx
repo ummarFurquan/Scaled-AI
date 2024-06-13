@@ -1,6 +1,8 @@
 import React from 'react';
 import About from '../../assets/about-removebg-preview.png';
 import Aboutus from '../../assets/Team-Work_Mesa-de-trabajo-1.svg';
+import mission from '../../assets/mission.png'
+import vision from '../../assets/vision.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Fade } from 'react-awesome-reveal';
 
@@ -41,12 +43,12 @@ const Main = () => {
       <Fade>
         <div className="container">
           <div className="heading-container" style={{ textAlign: 'center', margin: '2rem 0' }}>
-            <h1 style={{ overflow: 'hidden', textDecoration: 'underline 2px red' }}>Domains we work in</h1>
+            <h1 style={{ overflow: 'hidden', color:'red' }}>Domains we work in</h1>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card h-100">
-                <img className="card-img-top" alt="Cloud & Infrastructure" src="https://i.pinimg.com/originals/7d/32/c6/7d32c6a963d45d62b7cc2a70e2b72a2a.png" style={{ height: '200px', width: '100%', objectFit: 'cover' }} />
+                <img className="card-img-top" alt="Cloud & Infrastructure" src="https://cdn-icons-png.flaticon.com/512/3953/3953477.png" style={{ height: '200px', width: '100%', objectFit:'contain' }} />
                 <div className="card-body">
                   <h3 className="card-title" style={{ overflow: 'hidden' }}>Cloud & Infrastructure</h3>
                   <p className="card-text">Cloud Infrastructure is the collection of hardware and software elements such as computing power, networking, storage, and virtualization resources needed to enable cloud computing. Cloud infrastructure types usually also include a user interface (UI) for managing these virtual resources.</p>
@@ -55,7 +57,7 @@ const Main = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card h-100">
-                <img className="card-img-top" alt="Cybersecurity, Risk & Compliance" src="https://st.depositphotos.com/60430652/53667/v/450/depositphotos_536678434-stock-illustration-cybersecurity-icon-thin-linear-cybersecurity.jpg" style={{ height: '200px', width: '100%', objectFit: 'cover' }} />
+                <img className="card-img-top" alt="Cybersecurity, Risk & Compliance" src="https://png.pngtree.com/png-clipart/20230403/original/pngtree-security-line-icon-png-image_9020852.png" style={{ height: '200px', width: '100%', objectFit:'contain' }} />
                 <div className="card-body">
                   <h3 className="card-title" style={{ overflow: 'hidden' }}>Cybersecurity, Risk & Compliance</h3>
                   <p className="card-text">At its core, cybersecurity compliance means adhering to standards and regulatory requirements set forth by some agency, law or authority group. Organizations must achieve compliance by establishing risk-based controls that protect the confidentiality, integrity and availability (CIA) of information.</p>
@@ -64,7 +66,7 @@ const Main = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card h-100">
-                <img className="card-img-top" alt="Data Analytics" src="https://static.vecteezy.com/system/resources/previews/015/999/739/original/data-analytics-icon-free-vector.jpg" style={{ height: '200px', width: '100%', objectFit: 'cover' }} />
+                <img className="card-img-top" alt="Data Analytics" src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-analytics-line-icon-png-image_9117346.png" style={{ height: '200px', width: '100%', objectFit:'contain' }} />
                 <div className="card-body">
                   <h3 className="card-title" style={{ overflow: 'hidden' }}>Data Analytics</h3>
                   <p className="card-text">Data analytics is defined as a set of tools and technologies that help manage qualitative and quantitative data with the object of enabling discovery, simplifying organization, supporting governance, and generating insights for a business. This article explains the meaning of data analytics, its different types, and top use cases for an organization.</p>
@@ -75,12 +77,36 @@ const Main = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card h-100">
-                <img className="card-img-top" alt="Digital Transformation" src="https://imageio.forbes.com/specials-images/imageserve/64880883c11f32f4258d81e4/The-5-Biggest-Misconceptions-About-Digital-Transformation/960x0.jpg?height=503&width=711&fit=bounds" style={{ height: '200px', width: '100%', objectFit: 'cover' }} />
+                <img className="card-img-top" alt="Digital Transformation" src="https://cdn-icons-png.flaticon.com/512/6528/6528214.png" style={{ height: '200px', width: '100%', objectFit: 'contain' }} />
                 <div className="card-body">
                   <h3 className="card-title" style={{ overflow: 'hidden' }}>Digital Transformation</h3>
                   <p className="card-text">Digital transformation is the integration of digital technology into all areas of a business, fundamentally changing how you operate and deliver value to customers. It's also a cultural change that requires organizations to continually challenge the status quo, experiment, and get comfortable with failure.</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </Fade>
+      <Fade>
+        <div className="container">
+          <h2 style={{ textAlign: 'center', margin: '2rem 0', overflow:'hidden' }}>Mission / Vision</h2>
+          <div className="row align-items-center mb-4">
+            <div className="col-md-6">
+              <img src={mission} alt="Mission" className="img-fluid" />
+            </div>
+            <div className="col-md-6">
+              <h3 style={{overflow: 'hidden'}}>Our Mission</h3>
+              <p>Our mission is to deliver cutting-edge technology that enables customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life. 
+              </p>
+            </div>
+          </div>
+          <div className="row align-items-center">
+            <div className="col-md-6 order-md-2">
+              <img src={vision} alt="Vision" className="img-fluid"  style={{height:'20%'}}/>
+            </div>
+            <div className="col-md-6 order-md-1">
+              <h3 style={{overflow: 'hidden'}}>Our Vision</h3>
+              <p>Our vision is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development.</p>
             </div>
           </div>
         </div>
