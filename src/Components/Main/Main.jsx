@@ -39,8 +39,6 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </Fade>
-      <Fade>
         <div className="container">
           <div className="heading-container" style={{ textAlign: 'center', margin: '2rem 0' }}>
             <h1 style={{ overflow: 'hidden', color:'red' }}>Domains we work in</h1>
