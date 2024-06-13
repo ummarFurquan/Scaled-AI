@@ -1,57 +1,11 @@
-import React, { useState } from "react";
-import { isEmail } from "validator";
-import axios from "axios";
-import { ToastContainer, toast } from "react-toastify";
+import React  from "react";
+
 import 'react-toastify/dist/ReactToastify.css';
 import "./Contact.css";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const [success, setSuccess] = useState(false);
-
-  const handleContactForm = async (e) => {
-    e.preventDefault();
-
-    if (name && email && message) {
-      if (isEmail(email)) {
-        const responseData = {
-          name: name,
-          email: email,
-          message: message
-        };
-
-        try {
-          const res = await axios.post(process.env.REACT_APP_SHEET_API, responseData)
-          
-          if (res.status === 200 && res.data) {
-            setSuccess(true);
-            toast.success("We have received your message! Thank you.");
-            setName("");
-            setEmail("");
-            setMessage("");
-            
-            setTimeout(() => {
-              setSuccess(false);
-            }, 2000);
-          } else {
-            toast.error("Something went wrong, please try again.");
-            console.log(process.env.REACT_APP_SHEET_API)
-          }
-        } catch (error) {
-          toast.error("An error occurred, please try again.");
-          console.log(process.env.REACT_APP_SHEET_API)
-        }
-      } else {
-        toast.error("Invalid Email, please enter a valid one.");
-      }
-    } else {
-      toast.error("Please fill in all input fields.");
-    }
-  };
-
+  
+  
   return (
     <>
       <div className="contain">
@@ -74,32 +28,26 @@ const Contact = () => {
             <div className="form-container">
               <form
                 className="contact-form"
-                onSubmit={handleContactForm}
               >
                 <input
                   type="text"
                   placeholder="Your Name"
-                  value={name}
-                  name="Name"
-                  onChange={(e) => setName(e.target.value)}
+                 
                 />
                 <input
                   type="email"
                   placeholder="Your Email"
-                  name="Email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                
                 />
                 <textarea
                   name="Message"
                   cols="20"
                   rows="15"
                   placeholder="Your Queries/Message..."
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
+               
                 ></textarea>
                 <button type="submit" className="send-button">
-                  <span>{!success ? "Send" : "Sent"}</span>
+                  <span>"Sent</span>
                 </button>
               </form>
             </div>
@@ -118,15 +66,8 @@ const Contact = () => {
           </div>
         </section>
       </div>
-      <ToastContainer
-        position="top-center"
-        autoClose={5000}
-        hideProgressBar={false}
-        theme="dark"
-        rtl={false}
-        limit={1}
-        draggable
-      />
+      
+    
     </>
   );
 };
