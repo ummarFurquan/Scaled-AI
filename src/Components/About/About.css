@@ -1,0 +1,44 @@
+/* Add this CSS to your stylesheet or within a <style> tag in your component */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .btn {
+    margin: 10px;
+  }
+  
+  .para-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  @media (max-width: 768px) {
+    .value-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .circle {
+      margin-bottom: 10px;
+      margin-right: 0;
+      width: 10px;
+      height: 20px;
+    }
+    .heading {
+      overflow: hidden;
+    }
+  }
+  
