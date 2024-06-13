@@ -1,0 +1,59 @@
+.logo-container {
+    position: relative;
+  }
+  
+  .heading-1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* or any color that contrasts with the background image */
+    font-size: 20px; /* adjust the size as needed */
+  }
+  
+  .heading-1 h2 {
+    font-size: 30px; /* Adjust for larger screens */
+    margin-bottom: 20px;
+  }
+  
+  .heading-1 p {
+    font-size: 30px; /* Adjust for larger screens */
+    margin-top: 20px;
+  }
+  
+  .heading-1 span {
+    color: red;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .heading-1 h2 {
+      font-size: 1rem;
+    }
+  
+    .heading-1 p {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .heading-1 h2 {
+      font-size: 1 rem;
+    }
+  
+    .heading-1 p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading-1 h2 {
+      font-size: 1.34rem;
+    }
+  
+    .heading-1 p {
+      font-size: 0.9em;
+    }
+  }
+  
