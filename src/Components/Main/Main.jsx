@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <>
       <Fade>
-        <div id="about">
+        <div id="main">
           <div className="container">
             <div className="row">
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'column' }}>
