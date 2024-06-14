@@ -2,6 +2,7 @@ import React from 'react'
 import './Approach.css'
 import { Fade } from 'react-awesome-reveal'
 import Pie  from './Charts/Pie'
+import Section from './Charts/Section/Section'
 const Approach = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const Approach = () => {
       <h1 style={{overflow:'hidden'}}>Approach</h1>
       </div>
       <Pie/>
+      <Section/>
     </div>
     </>
   )

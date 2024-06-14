@@ -47,7 +47,7 @@ export default function DoughnutChartDemo() {
     }, []);
 
     return (
-        <div className="card" style={{ padding: '2rem', border: '1px solid white' }}>
+        <div className="card" style={{ padding: '0rem', border: '1px solid white' }}>
             <div className="chart-text-container">
                 <div className="chart-container">
                     <Chart type="doughnut" data={chartData} options={chartOptions} />
