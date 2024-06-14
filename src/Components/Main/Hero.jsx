@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <>
     <Fade>
-    <section className='hero' style={{margin:'5rem 0'}}>
+    <section className='hero' style={{margin:'2rem 0'}}>
         <div className='container'>
             <div className="row">
                 <div className="col-md-6">
                     <div className="copy">
-                        <div className="text-hero-bold" style={{margin:'5rem 0 0 0', fontWeight:'500', fontSize:'40px'}}>
+                        <div className="text-hero-bold" style={{margin:'2rem 0 0 0', fontWeight:'500', fontSize:'40px'}}>
                         Empowerment through <span style={{color:'red'}}>Technology</span>, Impact through <span style={{color:'red'}}>Solutions</span>
                         </div>
                         <div className="text-hero-regular" style={{margin:'24px 0'}}>

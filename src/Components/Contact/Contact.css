@@ -58,6 +58,10 @@
     font-family: "Montserrat", "sans-serif";
 }
 
+input ::placeholder{
+    color: black;
+}
+
 .contact-form textarea {
     resize: none;
     height: 200px;

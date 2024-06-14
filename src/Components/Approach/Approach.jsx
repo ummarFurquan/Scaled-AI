@@ -1,6 +1,7 @@
 import React from 'react'
 import './Approach.css'
 import { Fade } from 'react-awesome-reveal'
+import Pie  from './Charts/Pie'
 const Approach = () => {
   return (
     <>
@@ -14,7 +15,12 @@ const Approach = () => {
       </div>
     </div>
     </Fade>
-    <h3>Cards</h3>
+    <div className="container">
+      <div className="heading-container" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
+      <h1 style={{overflow:'hidden'}}>Approach</h1>
+      </div>
+      <Pie/>
+    </div>
     </>
   )
 }

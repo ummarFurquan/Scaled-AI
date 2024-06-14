@@ -1,14 +1,9 @@
 /* Add this CSS to your stylesheet or within a <style> tag in your component */
 
-.container {
-  max-width: 1200px;
+.container{
+  max-width: 100rem;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-.image img {
-  max-width: 100%;
-  height: auto;
 }
 
 .btn-container {
