@@ -9,7 +9,7 @@ export default function DoughnutChartDemo() {
     useEffect(() => {
         const documentStyle = getComputedStyle(document.documentElement);
         const data = {
-            labels: ['A', 'B', 'C', 'D'],
+            labels: ['Engage with our customers', 'Foster transparency and effective communication', 'Provide optimal solutions', 'Build trust through partnership'],
             datasets: [
                 {
                     data: [25, 25, 25, 25],
