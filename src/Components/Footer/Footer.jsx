@@ -17,7 +17,7 @@ const Footer = () => {
 						<div className="widget_title">
 							<img src={Logo} style={{width:'250px'}} className="img-fluid" alt=""/>
 						</div>
-						<p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit ac vehicula condimentum, euismod nec tortor praesent consequat urna.</p>
+						<p>At <span style={{color:'#e41a15'}}>Agilitnet Solutions LLC</span>, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
 						<ul className="social">
 							<li><a href="https://www.linkedin.com/company/agilitnet/" rel="noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a></li>
 						</ul>
