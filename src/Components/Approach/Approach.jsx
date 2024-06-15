@@ -18,7 +18,7 @@ const Approach = () => {
     </Fade>
     <div className="container">
       <div className="heading-container" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-      <h1 style={{overflow:'hidden'}}>Approach</h1>
+      <h1 style={{overflow:'hidden'}}>Our Approach</h1>
       </div>
       <Pie/>
       <Section/>
