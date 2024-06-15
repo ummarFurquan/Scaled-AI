@@ -7,6 +7,8 @@ import "./Contact.css";
 import { contactsData } from "../../data/contactsData";
 
 const Contact = () => {
+
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -26,9 +28,9 @@ const Contact = () => {
 
         axios.post(contactsData.sheetAPI, responseData).then((res) => {
           setSuccess(true);
-          setTimeout(()=>{
+          setTimeout(() => {
             setSuccess(false)
-          },3000)
+          }, 3000)
           setName("");
           setEmail("");
           setMessage("");
