@@ -1,7 +1,16 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { FaCheckCircle, FaRegCheckCircle } from 'react-icons/fa'; // Example icons
+import { MdOutlineSecurity, MdFeedback } from "react-icons/md";
+import { FaHandsHelping } from "react-icons/fa";
+import { GiTeacher,GiConversation } from "react-icons/gi";
+import { VscFeedback } from "react-icons/vsc";
+import { IoDocumentAttach } from "react-icons/io5";
+
+
+
+
+
 
 const Section = () => {
   return (
@@ -9,11 +18,11 @@ const Section = () => {
       <VerticalTimeline lineColor='red'>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+        //   contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           date="1. Compliance and Security"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<FaCheckCircle />}
+          icon={<MdOutlineSecurity/>}
         >
           <h3 className="vertical-timeline-element-title" style={{overflow:'hidden'}}>Compliance and Security</h3>
           <p>
@@ -24,7 +33,7 @@ const Section = () => {
           className="vertical-timeline-element--work"
           date="2. Needs Assessments"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<FaCheckCircle />}
+          icon={<FaHandsHelping/>}
         >
           <h3 className="vertical-timeline-element-title" style={{overflow:'hidden'}}>Needs Assessments</h3>
           <p>
@@ -35,7 +44,7 @@ const Section = () => {
           className="vertical-timeline-element--work"
           date="3. Training Sessions"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<FaCheckCircle />}
+          icon={<GiTeacher/>}
         >
           <h3 className="vertical-timeline-element-title" style={{overflow:'hidden'}}>Training Sessions</h3>
           <p>
@@ -46,7 +55,7 @@ const Section = () => {
           className="vertical-timeline-element--work"
           date="4. Proactive Communication"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<FaCheckCircle />}
+          icon={<GiConversation/>}
         >
           <h3 className="vertical-timeline-element-title" style={{overflow:'hidden'}}>Proactive Communication</h3>
           <p>
@@ -57,7 +66,7 @@ const Section = () => {
           className="vertical-timeline-element--work"
           date="5. Feedback and Improvement"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<FaCheckCircle />}
+          icon={<VscFeedback/>}
         >
           <h3 className="vertical-timeline-element-title" style={{overflow:'hidden'}}>Feedback and Improvement</h3>
           <p>
@@ -68,7 +77,7 @@ const Section = () => {
           className="vertical-timeline-element--work"
           date="6. Documentation and Resources"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<FaCheckCircle />}
+          icon={<IoDocumentAttach/>}
         >
           <h3 className="vertical-timeline-element-title" style={{overflow:'hidden'}}>Documentation and Resources</h3>
           <p>
