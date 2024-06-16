@@ -22,12 +22,6 @@ const Navbar = () => {
                 <a href='/about' className="nav-link active mx-2">About Us</a>
               </li>
               <li className="nav-item">
-                <a  href="/approach" className="nav-link active mx-2">Our Approach</a>
-              </li>
-              <li className="nav-item">
-                <a  href="/services" className="nav-link active mx-2">Services</a>
-              </li>
-              <li className="nav-item">
                 <a href="/capabilities" className="nav-link active mx-2">Capabilities</a>
               </li>
             </ul>
