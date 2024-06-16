@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import './About.css';
+import Approach from '../Approach/Approach';
 
 const About = () => {
   const aboutUsContent = `<div style="overflow-y:hidden;">
@@ -72,9 +73,9 @@ const About = () => {
   return (
     <>
     <Fade>
-    <div className="container" style={{ marginBottom: '100px' }}>
+    <div className="container" style={{ marginBottom: '200px' }}>
       <div className="image container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop:'20px', height:'auto' }}>
-        <img src='https://mountaireygroup.com/wp-content/uploads/2023/11/about.jpg' style={{width:'100%'}} alt='About' />
+        <img src='https://img.lovepik.com/background/20211021/large/lovepik-blue-banner-background-image_500452484.jpg' style={{width:'100%'}} alt='About' />
         <div className="btn-container my-3">
           <button className={`btn btn-outline-danger mx-5 ${activeButton === 'aboutUs' ? 'active' : ''}`} onClick={() => handleButtonClick('aboutUs', aboutUsContent)}>ABOUT US</button>
           <button className={`btn btn-outline-danger mx-5 ${activeButton === 'OurMission' ? 'active' : ''}`} onClick={() => handleButtonClick('OurMission', MissionContent)}>OUR MISSION</button>
@@ -87,6 +88,7 @@ const About = () => {
           </div>
       </div>
     </div>
+    <Approach/>
     </Fade>
     </>
   );
