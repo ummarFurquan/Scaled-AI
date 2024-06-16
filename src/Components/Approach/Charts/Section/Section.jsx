@@ -16,7 +16,7 @@ const Section = () => {
   return (
     <div style={{marginTop:'20px', marginBottom:'30px'}}>
         <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginBottom:'20px'}}>
-        <h1 style={{overflow:'hidden'}}>How we implement our Approach</h1>
+        <h1 style={{overflow:'hidden', color:'red'}}>How we implement our Approach ?</h1>
         </div>
       <VerticalTimeline lineColor='#dc3545'>
         <VerticalTimelineElement
