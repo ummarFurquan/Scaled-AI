@@ -1,7 +1,7 @@
 import React from 'react'
 import './Approach.css'
 import { Fade } from 'react-awesome-reveal'
-import Pie  from './Charts/Pie'
+import Accordian   from './Charts/Section/Accordian/Accordian'
 import Section from './Charts/Section/Section'
 const Approach = () => {
   return (
@@ -20,7 +20,7 @@ const Approach = () => {
       <div className="heading-container" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
       <h1 style={{overflow:'hidden', color:'red'}}>Our Approach</h1>
       </div>
-      <Pie/>
+      <Accordian/>
       <Section/>
     </div>
     </>

@@ -10,6 +10,7 @@
 .btn-container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -52,15 +53,19 @@
   .circle {
     margin-bottom: 10px;
     margin-right: 0;
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 10px;
   }
   .heading {
     overflow: hidden;
   }
+  .btn-container{
+    display: flex;
+    flex-direction: row;
+  }
   .btn {
     font-size: 14px;
-    padding: 7px 14px;
+    padding: 7px 54px;
   }
 }
 
@@ -69,6 +74,9 @@
   .value-item {
     flex-direction: row;
     align-items: center;
+  }
+  .btn-container{
+    flex-direction: row;
   }
   .circle {
     margin-bottom: 0;
@@ -81,7 +89,7 @@
   }
   .btn {
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
 }
 
@@ -110,7 +118,7 @@
 @media (min-width: 1200px) {
   .value-item {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
   }
   .circle {
     margin-bottom: 0;

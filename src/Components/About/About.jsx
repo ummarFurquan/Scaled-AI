@@ -73,7 +73,7 @@ const About = () => {
   return (
     <>
     <Fade>
-    <div className="container" style={{ marginBottom: '200px' }}>
+    <div className="container" style={{ marginBottom: '90px' }}>
       <div className="image container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop:'20px', height:'auto' }}>
         <img src='https://img.lovepik.com/background/20211021/large/lovepik-blue-banner-background-image_500452484.jpg' style={{width:'100%'}} alt='About' />
         <div className="btn-container my-3">

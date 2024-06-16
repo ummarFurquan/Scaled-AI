@@ -1,0 +1,37 @@
+/* Accordion.css */
+
+.accordion-button {
+    background-color: lightgray;
+    color: black;
+    transition: background-color 0.1s ease, color 0.1   0.1s ease;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: gray;
+    color: white;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-item {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .accordion-header {
+    background-color: lightgray;
+  }
+  
+  .accordion-body {
+    padding: 1rem 1.25rem;
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  .accordion-collapse {
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
