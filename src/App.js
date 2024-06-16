@@ -3,11 +3,11 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Main/Hero";
 import About from "./Components/About/About";
-import Approach from "./Components/Approach/Approach";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 import { ErrorBoundary } from "react-error-boundary";
 import Error from './Components/Error';
+import Capabilities from "./Components/Capabilities/Capabilities";
 
 function App() {
   return (
@@ -18,8 +18,6 @@ function App() {
           {/* Hero Element is in the Main folder, You can find multiple components in the Hero component */}
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
-          <Route path="/approach" element={<Approach />} />
-
           <Route 
             path="/contact" 
             element={
@@ -28,6 +26,7 @@ function App() {
               </ErrorBoundary>
             } 
           />
+          <Route path="/capabilities" element={<Capabilities/>}/>
           
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
