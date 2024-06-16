@@ -15,6 +15,7 @@ const Contact = () => {
 
   const [success, setSuccess] = useState(false);
 
+    
   const handleContactForm = (e) => {
     e.preventDefault();
 
@@ -42,7 +43,7 @@ const Contact = () => {
       }
     } else {
       toast.error("Enter all the input field");
-    }
+    } 
   };
 
   return (
