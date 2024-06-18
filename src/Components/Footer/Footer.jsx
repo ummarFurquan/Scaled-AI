@@ -42,7 +42,7 @@ const Footer = () => {
 						</div>
 						<div className="contact_info">
 							<div className="single_info">
-								<div className="icon">
+								<div className="footer-icons">
 									<i className="fas fa-phone-alt"></i>
 								</div>
 								<div className="info">
@@ -50,7 +50,7 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="single_info">
-								<div className="icon">
+								<div className="footer-icons">
 									<i className="fas fa-envelope"></i>
 								</div>
 								<div className="info">
@@ -58,7 +58,7 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="single_info">
-								<div className="icon">
+								<div className="footer-icons">
 									<i className="fas fa-map-marker-alt"></i>
 								</div>
 								<div className="info">
