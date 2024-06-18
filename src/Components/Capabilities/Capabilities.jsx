@@ -1,6 +1,10 @@
 import React from 'react';
 import { FaCloud, FaClipboardCheck, FaCog, FaShieldAlt, FaSyncAlt, FaRegListAlt, FaChartLine } from 'react-icons/fa'; // You can use any icons library, here I'm using react-icons
 import { RiGovernmentLine} from 'react-icons/ri' 
+import { MdOutlineEngineering } from "react-icons/md";
+import { AiOutlineSecurityScan } from "react-icons/ai";
+
+
 import {Fade} from 'react-awesome-reveal'
 import './Capabilities.css'
 
@@ -78,7 +82,7 @@ const Capabilities = () => {
                 <p>Governance, Risk and Compliance</p>
               </div>
               <div className="icon-item">
-                <FaClipboardCheck className='icon'  />
+                <MdOutlineEngineering className='icon'  />
                 <p>Security Design & Engineering</p>
               </div>
               <div className="icon-item">
@@ -86,7 +90,7 @@ const Capabilities = () => {
                 <p>Zero Trust Cyber Architecture</p>
               </div>
               <div className="icon-item">
-                <FaShieldAlt className='icon'  />
+                <AiOutlineSecurityScan className='icon'  />
                 <p>Intrusion Monitoring and Prevention</p>
               </div>
               <div className="icon-item">
