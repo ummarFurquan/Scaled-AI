@@ -116,7 +116,7 @@ const Capabilities = () => {
         <Fade  duration={1000} triggerOnce='true'>
         <div className="card" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',boxShadow: '0 4px 8px rgba(0,0,0,0.1)', padding: '10px', width: '80vw', margin: '0 auto' }}>
           <div className="card-body" style={{ textAlign: 'center' }}>
-            <h2 style={{ overflow: 'hidden', padding: '10px' }}>Cloud Computing</h2>
+            <h2 style={{ overflow: 'hidden', padding: '10px' }}>Data Science (AI) </h2>
             <div className="icons-grid">
               <div className="icon-item">
                 <FaCloud className='icon'  />
