@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/AGILITNET_Final_Logo.png'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './navbar.css'
 
 const Navbar = () => {
   return (
