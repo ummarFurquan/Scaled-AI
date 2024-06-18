@@ -17,7 +17,7 @@ const Main = () => {
                 <img src={About} alt='About' style={{ height: '15rem', marginBottom: '1rem' }} />
               </div>
               <div className="col-xs-12 col-md-6">
-                <img src={Aboutus} className="img-responsive" alt="" style={{ width: '100%', marginBottom: '0', height: '80%' }} />
+                <img src={Aboutus} className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '80%' }} />
               </div>
               <div className="col-xs-12 col-md-6">
                 <div className="about-text">
@@ -45,7 +45,7 @@ const Main = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div className="card h-100">
+              <div className="card h-100" style={{border:'1px solid', borderRadius:'9px'}}>
                 <img className="card-img-top" alt="Cloud & Infrastructure" src="https://cdn-icons-png.flaticon.com/512/3953/3953477.png" style={{ height: '200px', width: '100%', objectFit:'contain' }} />
                 <div className="card-body">
                   <h3 className="card-title" style={{ overflow: 'hidden' }}>Cloud & Infrastructure</h3>
@@ -54,7 +54,7 @@ const Main = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div className="card h-100">
+              <div className="card h-100" style={{border:'1px solid', borderRadius:'9px'}}>
                 <img className="card-img-top" alt="Cybersecurity, Risk & Compliance" src="https://png.pngtree.com/png-clipart/20230403/original/pngtree-security-line-icon-png-image_9020852.png" style={{ height: '200px', width: '100%', objectFit:'contain' }} />
                 <div className="card-body">
                   <h3 className="card-title" style={{ overflow: 'hidden' }}>Cybersecurity, Risk & Compliance</h3>
@@ -63,7 +63,7 @@ const Main = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div className="card h-100">
+              <div className="card h-100" style={{border:'1px solid', borderRadius:'9px'}}>
                 <img className="card-img-top" alt="Data Analytics" src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-analytics-line-icon-png-image_9117346.png" style={{ height: '200px', width: '100%', objectFit:'contain' }} />
                 <div className="card-body">
                   <h3 className="card-title" style={{ overflow: 'hidden' }}>Data Analytics</h3>
@@ -74,7 +74,7 @@ const Main = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div className="card h-100">
+              <div className="card h-100" style={{border:'1px solid', borderRadius:'9px'}}>
                 <img className="card-img-top" alt="Digital Transformation" src="https://cdn-icons-png.flaticon.com/512/6528/6528214.png" style={{ height: '200px', width: '100%', objectFit: 'contain' }} />
                 <div className="card-body">
                   <h3 className="card-title" style={{ overflow: 'hidden' }}>Digital Transformation</h3>
