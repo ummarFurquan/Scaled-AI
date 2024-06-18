@@ -51,7 +51,7 @@ const Accordian = () => {
     </h2>
     <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
       <div class="accordion-body">
-      Our commitment lies in <strong>delivering optimal solutions to our clients.</strong> Employing cutting-edge technologies and industry best practices, we guarantee the effectiveness, efficiency, and reliability of our solutions      </div>
+      Our goal is to <strong>forge lasting partnerships with our clients</strong>, going beyond the traditional vendor-client relationship. We are deeply invested in our client’s success and will extend every effort to help them realize their objectives.</div>
     </div>
   </div>
 </div>
