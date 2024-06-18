@@ -77,7 +77,7 @@ const About = () => {
       <div className="image container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop:'20px', height:'auto' }}>
         <img src='https://img.lovepik.com/background/20211021/large/lovepik-blue-banner-background-image_500452484.jpg' style={{width:'100%'}} alt='About' />
         <div className="btn-container my-3">
-          <button className={`btn btn-outline-danger mx-5 ${activeButton === 'aboutUs' ? 'active' : ''}`} onClick={() => handleButtonClick('aboutUs', aboutUsContent)}>ABOUT US</button>
+          <button className={`btn btn-outline-danger mx-5  ${activeButton === 'aboutUs' ? 'active' : ''}`} onClick={() => handleButtonClick('aboutUs', aboutUsContent)}>ABOUT US</button>
           <button className={`btn btn-outline-danger mx-5 ${activeButton === 'OurMission' ? 'active' : ''}`} onClick={() => handleButtonClick('OurMission', MissionContent)}>OUR MISSION</button>
           <button className={`btn btn-outline-danger mx-5 ${activeButton === 'OurVision' ? 'active' : ''}`} onClick={() => handleButtonClick('OurVision', VisionContent)}>OUR VISION</button>
           <button className={`btn btn-outline-danger mx-5 ${activeButton === 'values' ? 'active' : ''}`} onClick={() => handleButtonClick('values', valuesContent)}>WHAT WE VALUE</button>
