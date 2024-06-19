@@ -1,5 +1,6 @@
 import React from 'react'
 import './Approach.css'
+import AboutBack from '../../assets/about-back.png'
 import { Fade } from 'react-awesome-reveal'
 import Accordian   from './Charts/Section/Accordian/Accordian'
 import Section from './Charts/Section/Section'
@@ -9,9 +10,9 @@ const Approach = () => {
     <Fade>
     <div className='approach'>
       <div className="logo-container">
-        <img src='https://venngage-wordpress.s3.amazonaws.com/uploads/2022/09/business-background-3-1024x585.png' style={{width:'100vw', height:'80vh', }} alt='approach'/>
+        <img src={AboutBack} style={{width:'100vw', height:'80vh', objectFit:'cover' }} alt='approach'/>
         <div className="heading-1">
-          <p style={{overflowY: "hidden"}}>Agilitnet's approach in building long-lasting client relationships is achieved by following these key principles:</p>
+          <p style={{overflowY: "hidden", color:'black'}}>Agilitnet's approach in building long-lasting client relationships is achieved by following these key principles:</p>
         </div>
       </div>
     </div>

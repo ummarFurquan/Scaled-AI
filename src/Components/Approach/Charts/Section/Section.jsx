@@ -6,12 +6,6 @@ import { FaHandsHelping } from "react-icons/fa";
 import { GiTeacher,GiConversation } from "react-icons/gi";
 import { VscFeedback } from "react-icons/vsc";
 import { IoDocumentAttach } from "react-icons/io5";
-
-
-
-
-
-
 const Section = () => {
   return (
     <div style={{marginTop:'20px', marginBottom:'30px'}}>

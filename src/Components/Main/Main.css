@@ -1,0 +1,8 @@
+.card-icon{
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.card-icon:hover{
+    transform: scale(1.05);
+    color: #dc3545;
+    cursor: pointer;
+}

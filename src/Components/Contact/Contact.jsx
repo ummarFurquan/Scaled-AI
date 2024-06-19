@@ -15,7 +15,7 @@ const Contact = () => {
 
   const [success, setSuccess] = useState(false);
 
-    
+
   const handleContactForm = (e) => {
     e.preventDefault();
 
@@ -43,7 +43,7 @@ const Contact = () => {
       }
     } else {
       toast.error("Enter all the input field");
-    } 
+    }
   };
 
   return (
@@ -95,16 +95,7 @@ const Contact = () => {
               </form>
             </div>
             <div className="map-container">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5580151546988!2d77.61062057580538!3d12.936104383131662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1566cac890b5%3A0xc006690ced3721af!2sPvt%20Ltd!5e0!3m2!1sen!2sin!4v1717243988705!5m2!1sen!2sin"
-                width="800"
-                height="450"
-                style={{ border: "0" }}
-                title="Agilitnet"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3097.9705458099193!2d-77.4943377!3d39.0615854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b63c202e1caabd%3A0x2e57f8fbf3664894!2s20029%20Presidents%20Cup%20Terrace%2C%20Ashburn%2C%20VA%2020147%2C%20USA!5e0!3m2!1sen!2sin!4v1718785623873!5m2!1sen!2sin" width="600" title="Scaled AI INC" height="450" style={{border:'0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </section>

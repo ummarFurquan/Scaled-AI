@@ -1,7 +1,8 @@
 import React from 'react'
 import Main from './Main'
-import ServiceImg from '../../assets/landing.jpg'
+import HeroImage from '../../assets/Hero Image.png'
 import { Fade } from "react-awesome-reveal"
+import './Hero.css'
 const Hero = () => {
   return (
     <>
@@ -12,7 +13,7 @@ const Hero = () => {
                 <div className="col-md-6">
                     <div className="copy">
                         <div className="text-hero-bold" style={{margin:'2rem 4rem 0 0', fontWeight:'500', fontSize:'35px'}}>
-                        Empowerment through <span style={{color:'red'}}>Technology</span> <br/>Impact through <span style={{color:'red'}}>Solutions</span>
+                        <span className='top-heading'>Empowerment through <span style={{color:'red'}}>Technology</span> <br/>Impact through <span style={{color:'red'}}>Solutions</span></span>
                         </div>
                         <div className="text-hero-regular" style={{margin:'24px 0'}}>
                         In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At Agilitnet, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize new opportunities and attain sustainable growth.
@@ -24,7 +25,7 @@ const Hero = () => {
                 </div>
 
                 <div className="col-md-6">
-                    <img src={ServiceImg} style={{width:'100%', borderRadius:'20px', marginTop:'10px'}} alt='Hero Section'/>
+                    <img src={HeroImage} style={{width:'100%', borderRadius:'20px', marginTop:'10px'}} alt='Hero Section'/>
                 </div>
             </div>
         </div>
