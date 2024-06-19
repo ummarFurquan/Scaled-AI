@@ -15,7 +15,7 @@ const Hero = () => {
                         Empowerment through <span style={{color:'red'}}>Technology</span> <br/>Impact through <span style={{color:'red'}}>Solutions</span>
                         </div>
                         <div className="text-hero-regular" style={{margin:'24px 0'}}>
-                        In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At <span style={{color:'red'}}> Agilitnet</span>, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize in seizing new opportunities and attaining sustainable growth.
+                        In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At Agilitnet, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize new opportunities and attain sustainable growth.
                         </div>
                         <div className="cta">
                             <a href='#main' className='btn btn-danger'>Explore More</a>

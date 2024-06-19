@@ -15,13 +15,13 @@ import { IoDocumentAttach } from "react-icons/io5";
 const Section = () => {
   return (
     <div style={{marginTop:'20px', marginBottom:'30px'}}>
-        <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginBottom:'20px'}}>
-        <h1 style={{overflow:'hidden', color:'red'}}>How we implement our Approach ?</h1>
+        <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginBottom:'30px'}}>
+        <h1 style={{overflow:'hidden', color:'red'}}>Our Implementation Approach to create strong Partnerships</h1>
         </div>
       <VerticalTimeline lineColor='#dc3545'>
         <VerticalTimelineElement
+        height={'10px'}
           className="vertical-timeline-element--work"
-          
         //   contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}

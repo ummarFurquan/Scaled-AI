@@ -17,7 +17,7 @@ const Footer = () => {
 						<div className="widget_title">
 							<img src={Logo} style={{width:'250px'}} className="img-fluid" alt=""/>
 						</div>
-						<p>At <span style={{color:'#e41a15'}}>Agilitnet Solutions LLC</span>, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
+						<p>At Scaled AI Inc, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
 						<ul className="social">
 							<li><a href="https://www.linkedin.com/company/agilitnet/" rel="noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a></li>
 						</ul>
@@ -32,6 +32,7 @@ const Footer = () => {
 							<li><a href='/about'>About Us</a></li>
 							<li><a href='/approach'>Our Approach</a></li>
 							<li><a href='/capabilities'>Capabilities</a></li>
+							<li><a href='/contact'>Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -54,7 +55,7 @@ const Footer = () => {
 									<i className="fas fa-envelope"></i>
 								</div>
 								<div className="info">
-									<p><a href="mailto:jay.natarajan@agilitnet.com">jay.natarajan@agilitnet.com</a></p>
+									<p><a href="mailto:info@agilitnet.com">info@agilitnet.com</a></p>
 								</div>
 							</div>
 							<div className="single_info">

@@ -12,13 +12,13 @@ const About = () => {
 
   const valuesContent = `
   <div style="display: flex; justify-content:center; align-items:center;">
-  <h1 style="overflow-y:hidden; overflow-x:hidden;">What we value?</h1>
+  <h1 style="overflow-y:hidden; overflow-x:hidden;">Our Values</h1>
   </div>
   <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
   <div class="circle" style="width: 90px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">T</div>
   <div style="flex-grow: 1;">
     <div  style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden; overflow-x:hidden">
-      <strong class="heading">Trust:</strong> is the cornerstone of our relationships, both internally and externally. We foster an environment where trust is earned through honesty, transparency, and reliability.
+      <strong class="heading">Trust:</strong> Trust is the cornerstone of our relationships, both internally and externally. We foster an environment where trust is earned through honesty, transparency, and reliability.
     </div>
   </div>
 </li>

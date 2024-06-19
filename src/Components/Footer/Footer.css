@@ -20,8 +20,9 @@
     margin-bottom: 20px;
 }
 .deneb_footer .widget_wrapper .widegt_about .social li {
-    display: inline-block;
-    margin-right: 10px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 0px;
 }
 .deneb_footer .widget_wrapper .widegt_about .social li a {
     display: flex;

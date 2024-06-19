@@ -1,8 +1,16 @@
 import React from 'react';
-import { FaCloud, FaClipboardCheck, FaCog, FaShieldAlt, FaSyncAlt, FaRegListAlt, FaChartLine } from 'react-icons/fa'; // You can use any icons library, here I'm using react-icons
+import { FaCloud, FaClipboardCheck, FaShieldAlt, FaSyncAlt, FaRegListAlt, FaChartLine } from 'react-icons/fa'; // You can use any icons library, here I'm using react-icons
 import { RiGovernmentLine} from 'react-icons/ri' 
-import { MdOutlineEngineering } from "react-icons/md";
+import { MdOutlineEngineering, MdDeveloperMode,MdOutlineSecurity,MdOutlineBrightnessAuto  } from "react-icons/md";
 import { AiOutlineSecurityScan } from "react-icons/ai";
+import { IoCloudDoneSharp } from "react-icons/io5";
+import { GrCloudSoftware } from "react-icons/gr";
+import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { SiSpringsecurity,SiAwsorganizations} from "react-icons/si";
+import { GiProgression,GiDatabase, GiChart, GiCircuitry } from "react-icons/gi";
+import { FaUserShield } from "react-icons/fa6";
+import { GoShield } from "react-icons/go";
+import { LuBrainCircuit } from "react-icons/lu";
 
 
 import {Fade} from 'react-awesome-reveal'
@@ -42,11 +50,11 @@ const Capabilities = () => {
                 <p>Cloud Strategy</p>
               </div>
               <div className="icon-item">
-                <FaClipboardCheck className='icon'  />
+                <IoCloudDoneSharp className='icon'  />
                 <p>Cloud Readiness Evaluation</p>
               </div>
               <div className="icon-item">
-                <FaCog className='icon'  />
+                <GrCloudSoftware   className='icon'  />
                 <p>Cloud Applications</p>
               </div>
               <div className="icon-item">
@@ -58,7 +66,7 @@ const Capabilities = () => {
                 <p>Cloud Migration & Integration</p>
               </div>
               <div className="icon-item">
-                <FaRegListAlt className='icon'  />
+                <SiAwsorganizations className='icon'  />
                 <p>Cloud Platform Governance</p>
               </div>
               <div className="icon-item">
@@ -86,7 +94,7 @@ const Capabilities = () => {
                 <p>Security Design & Engineering</p>
               </div>
               <div className="icon-item">
-                <FaCog className='icon'  />
+                <VscWorkspaceTrusted className='icon'  />
                 <p>Zero Trust Cyber Architecture</p>
               </div>
               <div className="icon-item">
@@ -94,19 +102,19 @@ const Capabilities = () => {
                 <p>Intrusion Monitoring and Prevention</p>
               </div>
               <div className="icon-item">
-                <FaSyncAlt className='icon'  />
+                <MdOutlineSecurity className='icon'  />
                 <p>Cybersecurity Defense</p>
               </div>
               <div className="icon-item">
-                <FaRegListAlt className='icon'  />
+                <SiSpringsecurity className='icon'  />
                 <p>Security Operations Center (SOC)</p>
               </div>
               <div className="icon-item">
-                <FaChartLine className='icon'  />
+                <GoShield className='icon'  />
                 <p>Threat Detection & Incident Management</p>
               </div>
               <div className="icon-item">
-                <FaChartLine className='icon'  />
+                <FaUserShield className='icon'  />
                 <p>Vulnerability Management</p>
               </div>
             </div>
@@ -120,22 +128,22 @@ const Capabilities = () => {
         <Fade  duration={1000} triggerOnce='true'>
         <div className="card" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',boxShadow: '0 4px 8px rgba(0,0,0,0.1)', padding: '10px', width: '80vw', margin: '0 auto' }}>
           <div className="card-body" style={{ textAlign: 'center' }}>
-            <h2 style={{ overflow: 'hidden', padding: '10px' }}>Data Science (AI) </h2>
+            <h2 style={{ overflow: 'hidden', padding: '10px' }}> AI / ML</h2>
             <div className="icons-grid">
               <div className="icon-item">
-                <FaCloud className='icon'  />
+                <GiDatabase className='icon'  />
                 <p>Big Data Analytics</p>
               </div>
               <div className="icon-item">
-                <FaClipboardCheck className='icon'  />
+                <LuBrainCircuit className='icon'  />
                 <p>Machine Learning (ML)</p>
               </div>
               <div className="icon-item">
-                <FaCog className='icon'  />
+                <GiCircuitry className='icon'  />
                 <p>Artificial Intelligence (AI)</p>
               </div>
               <div className="icon-item">
-                <FaShieldAlt className='icon'  />
+                <GiChart className='icon'  />
                 <p>Predictive Analytics</p>
               </div>
               <div className="icon-item">
@@ -159,7 +167,7 @@ const Capabilities = () => {
             <h2 style={{ overflow: 'hidden', padding: '10px' }}>Digital Transformation</h2>
             <div className="icons-grid">
               <div className="icon-item">
-                <FaCloud className='icon'/>
+                <MdDeveloperMode className='icon'/>
                 <p>Legacy Application Development</p>
               </div>
               <div className="icon-item">
@@ -167,7 +175,7 @@ const Capabilities = () => {
                 <p>Low Code Solutions</p>
               </div>
               <div className="icon-item">
-                <FaCog className='icon'  />
+                <MdOutlineBrightnessAuto className='icon'  />
                 <p>Process Automation</p>
               </div>
               <div className="icon-item">
@@ -183,7 +191,7 @@ const Capabilities = () => {
                 <p>Project Management</p>
               </div>
               <div className="icon-item">
-                <FaChartLine className='icon'  />
+                <GiProgression className='icon'  />
                 <p>CMMI Appraisals</p>
               </div>
             </div>
