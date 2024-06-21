@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
+import { Route, Navigate, BrowserRouter, Switch } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Main/Hero";
@@ -14,7 +14,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <Routes>
+        <Switch>
           {/* Hero Element is in the Main folder, You can find multiple components in the Hero component */}
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
@@ -29,7 +29,7 @@ function App() {
           <Route path="/capabilities" element={<Capabilities/>}/>
           
           <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
+        </Switch>
         <Footer />
       </BrowserRouter>
     </>
