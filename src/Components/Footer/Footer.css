@@ -46,9 +46,6 @@
     color: #dc3545;
     transform: scale(1.01);
 }
-.deneb_footer .widget_wrapper .widegt_about .social li a:focus {
-    
-}
 .deneb_footer .widget_wrapper .widget_link ul li {
     margin-bottom: 5px;
     list-style-type: none;
