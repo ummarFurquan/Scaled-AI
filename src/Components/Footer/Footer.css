@@ -20,14 +20,13 @@
     margin-bottom: 20px;
 }
 .deneb_footer .widget_wrapper .widegt_about .social li {
-    display: flex;
-    align-items: flex-start;
+    display: inline-block;
     margin-left: 0px;
 }
 .deneb_footer .widget_wrapper .widegt_about .social li a {
     display: flex;
     text-decoration: none;
-    scale: 1.2;
+    scale: 1.1;
     margin: 5px;
     width: 50px;
     height: 20px;
@@ -41,15 +40,14 @@
     -moz-transition: all all 0.5s ease-out 0s;
     -ms-transition: all all 0.5s ease-out 0s;
     -o-transition: all all 0.5s ease-out 0s;
-    transition: all all 0.5s ease-out 0s;
+    transition: all all 0.5s ease-out 0s, scale 0.5s ease-in-out;
 }
-.deneb_footer .widget_wrapper .widegt_about .social li a:hover,
+.deneb_footer .widget_wrapper .widegt_about .social li a:hover{
+    color: #dc3545;
+    transform: scale(1.01);
+}
 .deneb_footer .widget_wrapper .widegt_about .social li a:focus {
-    background-image: -moz-linear-gradient(0deg, #ee2d22 0%, #ee2d22 100%);
-    background-image: -webkit-linear-gradient(0deg, #ff2727 0%, #ee2d22 100%);
-    background-image: -ms-linear-gradient(0deg, #ee2d22 0%, #ee2d22 100%);
-    color: #ee2d22;
-    box-shadow: #ee2d22;
+    
 }
 .deneb_footer .widget_wrapper .widget_link ul li {
     margin-bottom: 5px;

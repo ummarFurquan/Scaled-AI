@@ -20,6 +20,7 @@ const Footer = () => {
 						<p>At Scaled AI Inc, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
 						<ul className="social">
 							<li><a href="https://www.linkedin.com/company/agilitnet/" rel="noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a></li>
+							<li><a href="/" rel="noreferrer" target='_blank'><i className="fab fa-twitter"></i></a></li>
 						</ul>
 					</div>
 				</div>
