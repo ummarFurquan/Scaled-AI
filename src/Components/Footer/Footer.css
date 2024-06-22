@@ -1,14 +1,17 @@
-
-
 .deneb_footer .widget_wrapper .widget .widget_title {
     margin-bottom: 30px;
     margin-top: 10px;
-    
-
 }
+
+.widget_wrapper {
+    padding: 100px;
+}
+
 .deneb_footer .widget_wrapper .widget .widget_title h4 {
     font-weight: bold;
+    padding-left: 32px;
 }
+
 .deneb_footer .widget_wrapper .widget .widget_title h4:after {
     content: "";
     display: block;
@@ -16,13 +19,16 @@
     height: 2px;
     margin-top: 5px;
 }
+
 .deneb_footer .widget_wrapper .widegt_about p {
     margin-bottom: 20px;
 }
+
 .deneb_footer .widget_wrapper .widegt_about .social li {
     display: inline-block;
     margin-left: 0px;
 }
+
 .deneb_footer .widget_wrapper .widegt_about .social li a {
     display: flex;
     text-decoration: none;
@@ -42,56 +48,69 @@
     -o-transition: all all 0.5s ease-out 0s;
     transition: all all 0.5s ease-out 0s, scale 0.5s ease-in-out;
 }
-.deneb_footer .widget_wrapper .widegt_about .social li a:hover{
+
+.deneb_footer .widget_wrapper .widegt_about .social li a:hover {
     color: #dc3545;
     transform: scale(1.01);
 }
+
 .deneb_footer .widget_wrapper .widget_link ul li {
     margin-bottom: 5px;
     list-style-type: none;
 }
+
 .deneb_footer .widget_wrapper .widget_link ul li a {
     text-transform: capitalize;
     text-decoration: none;
     color: black;
 }
+
 .deneb_footer .widget_wrapper .widget_link ul li a:hover,
 .deneb_footer .widget_wrapper .widget_link ul li a:focus {
     color: red;
 }
+
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info {
     max-width: 250px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
+
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .footer-icons {
     font-size: 20px;
     color: red;
     margin-right: 10px;
 }
+
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
     color: black;
     text-decoration: none;
 }
+
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .info p span {
     display: block;
 }
 
 .deneb_footer .copyright_area {
     background: #f8f9fa;
-    padding: 5px 0 0 0 0 ;
+    padding: 5px;
+    text-align: center;
 }
+
 .deneb_footer .copyright_area .copyright_text {
     text-align: center;
     margin-top: 10px;
 }
+
 .deneb_footer .copyright_area .copyright_text p {
     color: black;
 }
+
 .deneb_footer .copyright_area .copyright_text p span {
     color: #ee2d22
 }
+
 .cta_wrapper {
     padding: 45px 50px 42px;
     max-width: 970px;
@@ -106,9 +125,10 @@
     z-index: 1;
 }
 
-.info p:hover{
+.info p:hover {
     color: #ee2d22;
 }
+
 .deneb_cta .cta_wrapper:after {
     content: "";
     background-position: bottom;
@@ -119,15 +139,18 @@
     left: 0;
     z-index: -1;
 }
+
 .deneb_cta .cta_wrapper .cta_content h3 {
     color: #fff;
     font-weight: bold;
 }
+
 @media (max-width: 767px) {
     .deneb_cta .cta_wrapper .cta_content h3 {
         font-size: 24px;
     }
 }
+
 .deneb_cta .cta_wrapper .cta_content h3:after {
     content: "";
     display: block;
@@ -136,12 +159,15 @@
     margin-top: 13px;
     margin-bottom: 24px;
 }
+
 .deneb_cta .cta_wrapper .cta_content p {
     color: #fff;
 }
+
 .deneb_cta .cta_wrapper .button_box {
     float: right;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .deneb_cta .cta_wrapper .button_box {
         float: none;
@@ -149,6 +175,7 @@
         margin-top: 30px;
     }
 }
+
 @media (max-width: 767px) {
     .deneb_cta .cta_wrapper .button_box {
         float: none;
@@ -156,15 +183,17 @@
         margin-top: 30px;
     }
 }
+
 .deneb_cta .cta_wrapper .button_box .deneb_btn {
     background: #fff;
     color: #011a3e;
 }
+
 .deneb_cta .cta_wrapper .button_box .deneb_btn:hover,
 .deneb_cta .cta_wrapper .button_box .deneb_btn:focus {
     box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
-.margin{
+.margin {
     color: rgb(200, 199, 199);
 }
