@@ -12,8 +12,8 @@ import Capabilities from "./Components/Capabilities/Capabilities";
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Router>
+    <>
+      <BrowserRouter>
         <Navbar />
         <Routes>
           {/* Hero Element is in the Main folder, You can find multiple components in the Hero component */}
@@ -32,8 +32,8 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Footer />
-      </Router>
       </BrowserRouter>
+      </>
     </>
   );
 }
