@@ -21,7 +21,7 @@ const Capabilities = () => {
     <>
 
 <div className="top-heading" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '50px', marginBottom: '10px', color: '#dc3545' }}>
-        <h1 style={{ textDecoration: '3px underline', textAlign: 'center', textUnderlineOffset:'5px', overflow:'hidden' }}>Capabilities</h1>
+        <h1 style={{  textAlign: 'center', overflow:'hidden' }}>Capabilities</h1>
       </div>
       <div className="top" style={{padding: '50px' }}>
         <div style={{ display: 'flex', justifyContent: 'center', margin: '0 -10px' }}>
@@ -35,7 +35,7 @@ const Capabilities = () => {
         </div>
       </div>
       <div className="top-heading" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '50px', marginBottom: '10px', color: '#dc3545' }}>
-        <h1 style={{ overflow: 'hidden', textDecoration: '1px solid underline', textUnderlineOffset:'5px' }}>Domains we work in</h1>
+        <h1 style={{ overflow: 'hidden' }}>Domains we work in</h1>
       </div>
       {/* Cloud Cards */}
       

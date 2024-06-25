@@ -21,7 +21,7 @@ const Main = () => {
           <div className="container">
             <div className="row">
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'column' }}>
-                <h1 style={{overflow:'hidden', fontWeight:'500', fontSize:'50px', marginTop:'90px', marginBottom:'100px', marginTop:'100px', color:'#dc3545'}}>About Us</h1>
+                <h1 style={{overflow:'hidden', fontWeight:'500', fontSize:'50px', marginBottom:'100px', marginTop:'100px', color:'#dc3545'}}>About Us</h1>
                 </div>
               <div className="col-xs-12 col-md-6">
                 <img src='https://images.stockcake.com/public/0/2/f/02f98d6e-9732-498d-af4f-d8f3d4d708ec_large/team-strategy-meeting-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '80%' , borderRadius:'20px'}} />
