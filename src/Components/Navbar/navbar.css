@@ -1,3 +1,7 @@
 .nav{
     scale: 0.7;
 }
+
+.nav-item > a {
+    text-decoration: none;
+}

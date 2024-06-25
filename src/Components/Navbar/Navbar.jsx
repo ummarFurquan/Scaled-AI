@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/AGILITNET_Final_Logo.png'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import {Link} from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
@@ -17,20 +18,29 @@ const Navbar = () => {
           <div className="collapse navbar-collapse flex " id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a href="/" className="nav-link active mx-2" style={{marginRight:'45px'}} aria-current="page">Home</a>
+                <Link to='/'>
+                <a  className="nav-link active mx-2" style={{marginRight:'45px'}} aria-current="page">Home</a></Link>
               </li>
+
+              
               <li className="nav-item">
-                <a href='/about' className="nav-link active mx-2">About Us</a>
+              <Link to='/about'>
+                <a  className="nav-link active mx-2">About Us</a></Link>
               </li>
+
               <li className="nav-item">
-                <a href="/capabilities" className="nav-link active mx-2">Capabilities</a>
+             <Link to='/capabilities'> 
+                <a className="nav-link active mx-2">Capabilities</a></Link>
               </li>
             </ul>
-            <a href='/contact' style={{color:'white', textDecoration:'none'}}>
+
+              <Link to='/contact'>
+            <a style={{color:'white', textDecoration:'none'}}>
             <button className="btn btn-danger" style={{ borderRadius: '20px' }}>
                 Contact Us
                 </button>
                 </a>
+                </Link>
           </div>
         </div>
       </nav>
