@@ -14,19 +14,6 @@ const Section = () => {
         </div>
       <VerticalTimeline lineColor='#dc3545'>
         <VerticalTimelineElement
-        height={'10px'}
-          className="vertical-timeline-element--work"
-        //   contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<MdOutlineSecurity/>}
-        >
-          <h3 className="vertical-timeline-element-title" style={{overflow:'hidden'}}>Compliance and Security</h3>
-          <p>
-            We prioritize compliance and security measures to ensure that our solutions meet stringent government regulations and standards, providing peace of mind to our clients.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
           className="vertical-timeline-element--work"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<FaHandsHelping/>}
@@ -34,16 +21,6 @@ const Section = () => {
           <h3 className="vertical-timeline-element-title" style={{overflow:'hidden', paddingBottom:'10px'}}>Needs Assessments</h3>
           <p>
             Our team regularly conducts thorough needs assessments and evaluations to ensure that our solutions are tailored to the specific requirements and objectives of the clients we serve.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<GiTeacher/>}
-        >
-          <h3 className="vertical-timeline-element-title" style={{overflow:'hidden', paddingBottom:'10px'}}>Training Sessions</h3>
-          <p>
-            We offer personalized training sessions and workshops to empower our clients to fully utilize and maximize the benefits of our solutions, fostering self-sufficiency and long-term success.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -59,11 +36,23 @@ const Section = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          icon={<VscFeedback/>}
+          icon={<GiTeacher/>}
         >
-          <h3 className="vertical-timeline-element-title" style={{overflow:'hidden',paddingBottom:'10px'}}>Feedback and Improvement</h3>
+          <h3 className="vertical-timeline-element-title" style={{overflow:'hidden', paddingBottom:'10px'}}>Training Sessions</h3>
           <p>
-            We actively seek feedback from our government clients and utilize this input to continuously refine and improve our solutions, demonstrating our commitment to ongoing collaboration and responsiveness to their evolving needs.
+            We offer personalized training sessions and workshops to empower our clients to fully utilize and maximize the benefits of our solutions, fostering self-sufficiency and long-term success.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+        //   contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<MdOutlineSecurity/>}
+        >
+          <h3 className="vertical-timeline-element-title" style={{overflow:'hidden'}}>Compliance and Security</h3>
+          <p>
+            We prioritize compliance and security measures to ensure that our solutions meet stringent government regulations and standards, providing peace of mind to our clients.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -74,6 +63,16 @@ const Section = () => {
           <h3 className="vertical-timeline-element-title" style={{overflow:'hidden',paddingBottom:'10px'}}>Documentation and Resources</h3>
           <p>
             We provide comprehensive documentation and resources, such as user guides and best practices manuals, to support our government clients in effectively utilizing and maintaining our solutions over the long term.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+          icon={<VscFeedback/>}
+        >
+          <h3 className="vertical-timeline-element-title" style={{overflow:'hidden',paddingBottom:'10px'}}>Feedback and Improvement</h3>
+          <p>
+            We actively seek feedback from our government clients and utilize this input to continuously refine and improve our solutions, demonstrating our commitment to ongoing collaboration and responsiveness to their evolving needs.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
