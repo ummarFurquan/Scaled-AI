@@ -21,14 +21,14 @@ const Main = () => {
           <div className="container">
             <div className="row">
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'column' }}>
-                <h1 style={{overflow:'hidden', fontWeight:'500', fontSize:'50px', marginTop:'90px', marginBottom:'100px', marginTop:'100px'}}>About Us</h1>
+                <h1 style={{overflow:'hidden', fontWeight:'500', fontSize:'50px', marginTop:'90px', marginBottom:'100px', marginTop:'100px', color:'#dc3545'}}>About Us</h1>
                 </div>
               <div className="col-xs-12 col-md-6">
-                <img src='https://images.stockcake.com/public/0/2/f/02f98d6e-9732-498d-af4f-d8f3d4d708ec_large/team-strategy-meeting-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '80%' }} />
+                <img src='https://images.stockcake.com/public/0/2/f/02f98d6e-9732-498d-af4f-d8f3d4d708ec_large/team-strategy-meeting-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '80%' , borderRadius:'20px'}} />
               </div>
               <div className="col-xs-12 col-md-6">
                 <div className="about-text">
-                  <p><span style={{ color: 'red', fontSize: '30px' }}>Agilitnet</span> is a leading technology solutions provider dedicated to empowering organization to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</p>
+                  <p><span style={{ color: '#dc3545', fontSize: '30px' }}>ScaledAI</span> is a leading technology solutions provider dedicated to empowering organization to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</p>
                   <h5 style={{ overflow: 'hidden' }}>Vision and Mission of the company</h5>
                   <div className="list-style">
                     <div className="col-lg-6 col-sm-6 col-xs-12">
@@ -47,7 +47,7 @@ const Main = () => {
         </div>
         <div className="container">
           <div className="heading-container" style={{ textAlign: 'center', margin: '2rem 0' }}>
-            <h1 style={{ overflow: 'hidden', color:'red' }}>Our Capabilities</h1>
+            <h1 style={{ overflow: 'hidden', color:'#dc3545' }}>Our Capabilities</h1>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
@@ -96,7 +96,7 @@ const Main = () => {
       </Fade>
       <Fade>
         <div className="container">
-          <h1 style={{ textAlign: 'center', margin: '2rem 0', overflow:'hidden', color:'red' }}>Mission and Vision</h1>
+          <h1 style={{ textAlign: 'center', margin: '2rem 0', overflow:'hidden', color:'#dc3545' }}>Mission and Vision</h1>
           <div className="row align-items-center mb-4">
             <div className="col-md-6">
               <img src={Missions} alt="Mission" className="img-fluid" style={{height:'65%', borderRadius:'20px'}} />
