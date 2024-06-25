@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/AGILITNET_Final_Logo.png'
+import Logo from '../../assets/logoDraft-removebg-preview.png'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import {Link} from 'react-router-dom'
 import './navbar.css'
@@ -10,7 +10,7 @@ const Navbar = () => {
       <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary border" style={{ backgroundColor: 'gray', boxShadow:' rgba(0, 0, 0, 0.3) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px'}}>
         <div className="container">
           <a href="/" className="navbar">
-            <img src={Logo} alt='Agilitnet Logo' style={{ width: '140px', mixBlendMode: 'darken' }} />
+            <img src={Logo} alt='Agilitnet Logo' style={{height:'50px' }} />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

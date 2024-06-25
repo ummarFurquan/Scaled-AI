@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Logo from '../../assets/AGILITNET_Final_Logo.png'
+import Logo from '../../assets/logoDraft-removebg-preview.png'
 
 const Footer = () => {
 
@@ -55,7 +55,7 @@ const Footer = () => {
 									<i className="fas fa-envelope"></i>
 								</div>
 								<div className="info">
-									<p><a href="mailto:info@agilitnet.com">info@agilitnet.com</a></p>
+									<p><a href="mailto:info@scaledai.com">info@scaledai.com</a></p>
 								</div>
 							</div>
 							<div className="single_info">
@@ -64,7 +64,7 @@ const Footer = () => {
 								</div>
 								<div className="info">
 									<a href='https://tinyurl.com/5d7a99mt' style={{textDecoration:'none', color:'black'}} target='_blank' rel='noreferrer'>
-									<p>20029 Presidents Cup TE,<span>Ashburn VA-20147.</span></p>
+									<p>722 E Market St, <span>STE 102 OFC A69,</span> Leesburg VA 20176</p>
 									</a>
 								</div>
 							</div>
