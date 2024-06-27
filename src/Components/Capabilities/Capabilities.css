@@ -1,6 +1,55 @@
-.card {
-    margin: 0 10px;
-  }  
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+    width:'5px'
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+.image-container {
+  position: relative;
+}
+
+.tag-card {
+  background-color: rgba(0, 0, 0, 0.7); /* Light black background with some transparency */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%; /* Ensure the card doesn't stretch too wide */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+.capability-tagline {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  height: 7vh;
+  overflow: hidden;
+  font-size: 50px; /* Adjust font size as needed */
+  word-wrap: break-word; /* Ensure long text wraps properly */
+  white-space: nowrap; /* Prevent text wrapping */
+  border-right: 0.15em solid white; /* The caret */
+  animation: typing 4.1s steps(35, end) forwards, blink-caret 1s step-end infinite;
+  animation-delay: 0s; /* Slight delay before starting the typing effect */
+}
+
 .icons-grid {
     display: flex;
     flex-wrap: wrap;
@@ -23,8 +72,8 @@
   .icon {
     transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
     margin: 5px;
-    width: 40px;
-    height: 45px;    
+    width: 50px;
+    height: 50px;    
     cursor: pointer;
   }
 
@@ -72,5 +121,43 @@
     
     .card {
       margin: 0;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .capability-tagline {
+      font-size: 40px;
+    }
+    .tag-card {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .capability-tagline {
+      font-size: 35px;
+    }
+    .tag-card {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .capability-tagline {
+      font-size: 30px;
+    }
+    .tag-card {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .capability-tagline {
+      font-size: 25px;
+    }
+    .tag-card {
+      padding: 0px;
+      height: 200px;
+      width: 300px
     }
   }
