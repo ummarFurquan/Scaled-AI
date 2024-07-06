@@ -9,7 +9,7 @@ const About = () => {
   <div style="display: flex; justify-content:center; align-items:center;">
   <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px;">About Us</h1>
   </div>
-  <b>Agilitnet</b> is a leading technology solutions provider dedicated to empowering government agencies to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</div>`;
+  <b>ScaledAI</b> is a leading technology solutions provider dedicated to empowering commercial and federal organizations to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</div>`;
 
   const valuesContent = `
   <div style="display: flex; justify-content:center; align-items:center;">
@@ -56,7 +56,7 @@ const About = () => {
   <div style="display: flex; justify-content:center; align-items:center;">
   <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px;">Our Mission</h1>
   </div>
-  <div style="overflow-y:hidden;">Our mission is to deliver <b>cutting-edge technology</b> that enable customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life.</div>`;
+  <div style="overflow-y:hidden;">Our mission is to deliver cutting-edge technology that enables customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life.</div>`;
   const VisionContent =`
   <div style="display: flex; justify-content:center; align-items:center;">
   <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px;">Our Vision</h1>
