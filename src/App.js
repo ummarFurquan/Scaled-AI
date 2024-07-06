@@ -12,6 +12,7 @@ import Capabilities from './Components/Capabilities/Capabilities';
 
 function App() {
   return (
+    <>
     <Router>
       <div className="App">
         <Navbar />
@@ -32,6 +33,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </>
   );
 }
 
