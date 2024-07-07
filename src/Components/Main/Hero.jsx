@@ -1,9 +1,36 @@
-import React, {useEffect, useRef} from 'react'
+import React from 'react'
 import Main from './Main'
 import { Fade } from "react-awesome-reveal"
 import gif from '../../assets/hero-vid.mp4'
 import './Hero.css'
 const Hero = () => {
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const video = document.getElementById('background-video');
+
+        video.addEventListener('fullscreenchange', (event) => {
+            if (document.fullscreenElement) {
+                document.exitFullscreen();
+            }
+        });
+        
+        video.addEventListener('webkitfullscreenchange', (event) => {
+            if (document.webkitFullscreenElement) {
+                document.webkitExitFullscreen();
+            }
+        });
+
+        video.addEventListener('mozfullscreenchange', (event) => {
+            if (document.mozFullScreenElement) {
+                document.mozCancelFullScreen();
+            }
+        });
+
+        video.addEventListener('msfullscreenchange', (event) => {
+            if (document.msFullscreenElement) {
+                document.msExitFullscreen();
+            }
+        });
+    });
 
    
     return (
@@ -11,7 +38,7 @@ const Hero = () => {
             <Fade>
                 <section className='hero' style={{ position: 'relative', overflow: 'hidden' }}>
                     <div className='background-video'>
-                        <video autoPlay loop muted playsInline   style={{
+                        <video id='background-video' autoPlay loop muted  controlsList="nofullscreen"    style={{
                             
                             width: '100vw',
                             height: '100%',
@@ -20,6 +47,7 @@ const Hero = () => {
                             top: 0,
                             left: 0,
                             zIndex: -1,
+                            
                         }}>
                             <source src={gif} type="video/mp4" />
                         </video>

@@ -1,8 +1,18 @@
+
 .hero {
     position: relative;
     min-height: 50vh;
     overflow: hidden;
   }
+
+  video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
   
   .background-image img {
     width: 100vw;
