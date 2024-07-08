@@ -1,50 +1,43 @@
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+.capability-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 5vw;
 }
 
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent;
-    width:'5px'
-  }
-  50% {
-    border-color: white;
-  }
-}
-
-.image-container {
+.capability-image {
   position: relative;
+  width: 100%;
+  height: 90%;
+  max-height: 90vh;
 }
 
-.tag-card {
-  background-color: rgba(0, 0, 0, 0.7); /* Light black background with some transparency */
-  padding: 20px;
-  border-radius: 10px; /* Rounded corners */
+.capability-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.capability-tagline {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-height: 150px;
-  box-sizing: border-box; /* Include padding in width/height calculations */
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
 }
 
-.capability-tagline {
-  color: white;
-  margin-top: 10px;
-  text-align: center;
-  height: 10vh;
+.capability-tagline h2 {
+  font-size: clamp(1.5rem, 5vw, 4rem);
+  color: red;
+  font-family: 'Impact', sans-serif;
+  margin: 0;
   overflow: hidden;
-  font-size: 45px; /* Adjust font size as needed */
-  word-wrap: break-word; /* Ensure long text wraps properly */
-  white-space: nowrap; /* Prevent text wrapping */
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .icons-grid {
@@ -145,6 +138,7 @@
     }
     .tag-card {
       padding: 10px;
+      height: 200px;
     }
   }
   
@@ -154,7 +148,28 @@
     }
     .tag-card {
       padding: 0px;
-      height: 200px;
+      height: 300px;
       width: 300px
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .capability-container {
+      padding: 1.5rem;
+    }
+    
+    .capability-image {
+      height: 85%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .capability-container {
+      padding: 2vh 2vw;
+    }
+    
+    .capability-image {
+      height: 100%;
     }
   }
