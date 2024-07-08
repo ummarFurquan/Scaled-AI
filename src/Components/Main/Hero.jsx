@@ -67,7 +67,7 @@ const Hero = () => {
                                             In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At ScaledAI, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize new opportunities and attain sustainable growth
                                         </p>
                                         <div className="cta">
-                                            <a href='#main' className='btn btn-danger'>Explore More</a>
+                                            <button className='btn btn-danger btn-sm' style={{borderRadius:'20px', scale:'0.9'}}><a href='#main' style={{color:'white', textDecoration:'none'}} >Explore More</a></button>
                                         </div>
                                     </div>
                                 </div>
