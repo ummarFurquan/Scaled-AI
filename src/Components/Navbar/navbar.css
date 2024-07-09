@@ -4,4 +4,9 @@
 
 .nav-item > a {
     text-decoration: none;
+    font-size: 18px;
+}
+
+.active-link {
+    color: #dc3545 !important;
 }

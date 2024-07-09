@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/logoDraft-removebg-preview.png'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
@@ -18,21 +18,38 @@ const Navbar = () => {
           <div className="collapse navbar-collapse flex " id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to='/' className="nav-link active mx-2" style={{ marginRight: '45px' }} aria-current="page">
+                <NavLink
+                  to='/'
+                  className={({ isActive }) => 
+                    isActive ? "nav-link active mx-2 active-link" : "nav-link active mx-2"
+                  }
+                  style={{ marginRight: '45px' }}
+                  end
+                >
                   Home
-                </Link>
+                </NavLink>
               </li>
 
               <li className="nav-item">
-                <Link to='/about' className="nav-link active mx-2">
+                <NavLink
+                  to='/about'
+                  className={({ isActive }) => 
+                    isActive ? "nav-link active mx-2 active-link" : "nav-link active mx-2"
+                  }
+                >
                   About Us
-                </Link>
+                </NavLink>
               </li>
 
               <li className="nav-item">
-                <Link to='/capabilities' className="nav-link active mx-2">
+                <NavLink
+                  to='/capabilities'
+                  className={({ isActive }) => 
+                    isActive ? "nav-link active mx-2 active-link" : "nav-link active mx-2"
+                  }
+                >
                   Capabilities
-                </Link>
+                </NavLink>
               </li>
             </ul>
 
