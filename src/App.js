@@ -9,6 +9,7 @@ import Contact from './Components/Contact/Contact';
 import { ErrorBoundary } from 'react-error-boundary';
 import Error from './Components/Error';
 import Capabilities from './Components/Capabilities/Capabilities';
+import ScrollToTop from 'react-scroll-to-top';
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
         </Routes>
         <Footer />
       </div>
+      <ScrollToTop
+      color='#dc3545'
+      style={{}}
+      />
     </Router>
     </>
   );
