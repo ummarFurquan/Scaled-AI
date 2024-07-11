@@ -35,7 +35,6 @@ function App() {
       </div>
       <ScrollToTop
       color='#dc3545'
-      style={{}}
       />
     </Router>
     </>
