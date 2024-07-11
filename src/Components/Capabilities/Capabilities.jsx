@@ -28,7 +28,7 @@ import {
 import { FaUserShield } from "react-icons/fa6";
 import { GoShield } from "react-icons/go";
 import { LuBrainCircuit } from "react-icons/lu";
-import CapabilityImg from "../../assets/capabilities1.png";
+import CapabilityImg from "../../assets/Images/capabilities1.png";
 
 import { Fade } from "react-awesome-reveal";
 import "./Capabilities.css";

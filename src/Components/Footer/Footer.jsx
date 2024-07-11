@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Logo from '../../assets/logoDraft-removebg-preview.png'
+import Logo from '../../assets/Images/logoDraft-removebg-preview.png'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
 	return (
 
 		<>
-			<footer className="deneb_footer footer navbarfixed-bottom" >
+			<footer className="deneb_footer footer navbarfixed-bottom" style={{marginTop:'30px'}} >
 				<div className="widget_wrapper" style={{ backgroundColor: '#e5e5e5' }}>
 					<div className="container">
 						<div className="row">

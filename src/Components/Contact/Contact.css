@@ -55,11 +55,12 @@
     padding: 10px;
     border-radius: 0.4rem;
     border: 0.5px solid black;
-    font-family: "Montserrat", "sans-serif";
+    font-family: "Montserrat";
 }
 
 input ::placeholder{
     color: black;
+    font-family: "Montserrat";
 }
 
 .contact-form textarea {

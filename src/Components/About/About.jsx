@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
-import AboutImg from '../../assets/about-new.jpg'
+import AboutImg from '../../assets/Images/about-new.jpg'
 import './About.css';
 import Approach from '../Approach/Approach';
 
