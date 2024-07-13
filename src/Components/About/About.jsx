@@ -83,8 +83,8 @@ const About = () => {
           <button className={`btn btn-outline-danger mx-5 ${activeButton === 'OurVision' ? 'active' : ''}`} onClick={() => handleButtonClick('OurVision', VisionContent)}>OUR VISION</button>
           <button className={`btn btn-outline-danger mx-5 ${activeButton === 'values' ? 'active' : ''}`} onClick={() => handleButtonClick('values', valuesContent)}>WHAT WE VALUE</button>
         </div>
-        
-          <div className="para-container my-3" style={{ borderLeft: '2px solid red', padding: '20px' }}>
+
+          <div className="para-container my-3" style={{ borderLeft: '2px solid red', padding: '20px', fontFamily:'Montserrat'}}>
             <h5 dangerouslySetInnerHTML={{ __html: content }}></h5>
           </div>
       </div>

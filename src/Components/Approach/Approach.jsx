@@ -12,14 +12,14 @@ const Approach = () => {
       <div className="logo-container">
         <img src={AboutBack} style={{width:'100vw', height:'80vh', objectFit:'cover' }} alt='approach'/>
         <div className="heading-1">
-          <p style={{overflowY: "hidden", color:'black'}}>Agilitnet's approach in building long-lasting client relationships is achieved by following these key principles:</p>
+          <p style={{overflowY: "hidden", color:'black', fontFamily:'Montserrat'}}>Agilitnet's approach in building long-lasting client relationships is achieved by following these key principles:</p>
         </div>
       </div>
     </div>
     </Fade>
     <div className="container">
       <div className="heading-container" style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-      <h1 style={{overflow:'hidden', color:'red'}}>Our Approach</h1>
+      <h1 style={{overflow:'hidden', color:'red', fontFamily:'Montserrat', marginBottom:'30px'}}>Our Approach</h1>
       </div>
       <Accordian/>
       <Section/>
