@@ -75,7 +75,7 @@ const About = () => {
     <>
     <Fade>
         <img src='https://images.stockcake.com/public/0/2/f/02f98d6e-9732-498d-af4f-d8f3d4d708ec_large/team-strategy-meeting-stockcake.jpg' style={{width:'100%', height:'70vh', objectFit:'cover'}} alt='About' />
-    <div className="container" style={{ marginBottom: '90px' }}>
+    <div className="container" style={{ marginBottom: '40px' }}>
       <div className="image container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop:'20px', width:'100vw' }}>
         <div className="btn-container my-3">
           <button className={`btn btn-outline-danger mx-5  ${activeButton === 'aboutUs' ? 'active' : ''}`} onClick={() => handleButtonClick('aboutUs', aboutUsContent)}>ABOUT US</button>
@@ -89,6 +89,7 @@ const About = () => {
           </div>
       </div>
     </div>
+    <hr class="hr" style={{marginBottom:'50px'}} />
     <Approach/>
     </Fade>
     </>

@@ -22,16 +22,38 @@ const Main = () => {
           <div className="container">
             <div className="row">
               <div className="heading-container">
-                  <h1 className="card-title responsive-title" style={{overflow:'hidden', display:'flex', justifyContent:'center', alignItems:'center'}}>
-                      Overview
-                    </h1>
+                <h1 className="card-title responsive-title" style={{ overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                  Overview
+                </h1>
               </div>
-              <div className="container d-flex justify-content-center align-items-center">
-                <div className="card text-center responsive-card" style={{border:'none'}}>
-                  <div className="card-body" style={{boxShadow: 'rgba(0.1, 34, 0, 0.3) 1px 19px 38px, rgba(0.1, 0, 0, 0.22) 1px 15px 12px'}}>
-                    <p className="card-text responsive-text">
-                      In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At ScaledAI, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize new opportunities and attain sustainable growth.
-                    </p>
+              <div className="top" style={{ padding: "50px" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    margin: "0 -10px",
+                  }}
+                >
+                  <div
+                    className="card"
+                    style={{
+                      boxShadow:
+                        "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.10) 0px 6px 6px",
+                      borderRadius: "10px",
+                      overflow: "hidden",
+                      maxWidth: "1000px",
+                      width: "100%",
+                      textAlign: "left",
+                      marginBottom: "15px",
+                      marginTop: "5px",
+                    }}
+                  >
+                    <div className="card-body" style={{ padding: "20px" }}>
+
+                      <p style={{ color: "#555", lineHeight: "2.2", fontSize: "20px" }}>
+                        In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At ScaledAI, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize new opportunities and attain sustainable growth
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
