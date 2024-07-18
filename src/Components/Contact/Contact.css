@@ -63,7 +63,7 @@ body, input, textarea, button {
 
 input::placeholder,
 textarea::placeholder {
-    color: #888;
+    color: #030202;
     font-family: 'Montserrat', sans-serif;
 }
 
