@@ -15,7 +15,6 @@ const Contact = () => {
 
   const [success, setSuccess] = useState(false);
 
-
   const handleContactForm = (e) => {
     e.preventDefault();
     // const before = new Date().getSeconds();

@@ -37,7 +37,7 @@ const About = () => {
   <div class="circle" style="width: 110px; height: 50px; border-radius: 50%; background-color: #ff0000; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 24px; margin-right: 20px;">A</div>
   <div style="flex-grow: 1;">
     <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
-      <strong class="heading">Agility:</strong> Agility is our ability to adapt and respond quickly to changing circumstances and opportunities. We embrace flexibility and nimbleness, allowing us to stay ahead of the curve and seize new possibilities.
+      <strong class="heading" style= "padding: 5px;">Agility:</strong> Agility is our ability to adapt and respond quickly to changing circumstances and opportunities. We embrace flexibility and nimbleness, allowing us to stay ahead of the curve and seize new possibilities.
     </div>
   </div>
 </li>
@@ -74,7 +74,7 @@ const About = () => {
   return (
     <>
     <Fade>
-        <img src={AboutImg} style={{width:'100vw', height:'50vh', objectFit:'cover'}} alt='About' />
+        <img src='https://images.stockcake.com/public/0/2/f/02f98d6e-9732-498d-af4f-d8f3d4d708ec_large/team-strategy-meeting-stockcake.jpg' style={{width:'100%', height:'70vh', objectFit:'cover'}} alt='About' />
     <div className="container" style={{ marginBottom: '90px' }}>
       <div className="image container" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop:'20px', width:'100vw' }}>
         <div className="btn-container my-3">
@@ -84,7 +84,7 @@ const About = () => {
           <button className={`btn btn-outline-danger mx-5 ${activeButton === 'values' ? 'active' : ''}`} onClick={() => handleButtonClick('values', valuesContent)}>WHAT WE VALUE</button>
         </div>
 
-          <div className="para-container my-3" style={{ borderLeft: '2px solid red', padding: '20px', fontFamily:'Montserrat'}}>
+          <div className="para-container my-3" style={{ borderLeft: '2px solid red', padding: '20px', fontSize:'30px', fontWeight:'500'}}>
             <h5 dangerouslySetInnerHTML={{ __html: content }}></h5>
           </div>
       </div>

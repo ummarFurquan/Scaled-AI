@@ -27,8 +27,8 @@ const Main = () => {
                     </h1>
               </div>
               <div className="container d-flex justify-content-center align-items-center">
-                <div className="card text-center responsive-card">
-                  <div className="card-body">
+                <div className="card text-center responsive-card" style={{border:'none'}}>
+                  <div className="card-body" style={{boxShadow: 'rgba(0.1, 34, 0, 0.3) 1px 19px 38px, rgba(0.1, 0, 0, 0.22) 1px 15px 12px'}}>
                     <p className="card-text responsive-text">
                       In today's fast-paced digital landscape, agile adaptation to emerging technologies is crucial for staying competitive. At ScaledAI, we specialize in providing digital engineering and IT solutions that enable businesses to maneuver through these changes successfully. With a focus on outcome-driven approaches, we help our clients capitalize new opportunities and attain sustainable growth.
                     </p>
@@ -40,7 +40,7 @@ const Main = () => {
                 <h1 style={{ overflow: 'hidden', fontWeight: '500', fontSize: '50px', marginBottom: '40px', marginTop: '50px', color: '#dc3545' }}>About Us</h1>
               </div>
               <div className="col-xs-12 col-md-6">
-                <img src='https://images.stockcake.com/public/0/2/f/02f98d6e-9732-498d-af4f-d8f3d4d708ec_large/team-strategy-meeting-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '100%', borderRadius: '20px' }} />
+                <img src='https://images.stockcake.com/public/0/1/7/017d5c2c-3f69-45aa-a1d7-20b0bebc677d_large/team-celebrates-success-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '100%', borderRadius: '20px' }} />
               </div>
               <div className="col-xs-12 col-md-6 md-mt-5">
                 <div className="about-text">
