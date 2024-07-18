@@ -12,12 +12,14 @@
   width: 100%;
   height: 90%;
   max-height: 90vh;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .capability-image img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .capability-tagline {
