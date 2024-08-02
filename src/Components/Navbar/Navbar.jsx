@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/Logo-final.jpg'
+import Logo from '../../assets/Logo-final-bg.png'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Link, NavLink } from 'react-router-dom'
 import './navbar.css'

@@ -41,7 +41,7 @@ const Hero = () => {
                         {/* <video id='background-video' autoPlay loop muted controlsList="nofullscreen">
                             <source src={gif} type="video/mp4" />
                         </video> */}
-                        <img id='background-video' src={gif}/>
+                        <img id='background-video' src={gif} alt='Agilitnet Hero'/>
                     </div>
                     <div className='content-overlay'>
                         <div className='container'>
