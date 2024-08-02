@@ -28,8 +28,8 @@ import {
 import { FaUserShield } from "react-icons/fa6";
 import { GoShield } from "react-icons/go";
 import { LuBrainCircuit } from "react-icons/lu";
-import CapabilityImg from "../../assets/Images/capabilities.png";
-
+import CapabilityImg from "../../assets/Images/Hero Image.png";
+import { BsFillClipboard2DataFill, BsDatabaseFillGear } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
 import "./Capabilities.css";
 
@@ -37,10 +37,10 @@ const Capabilities = () => {
   return (
     <>
       <Fade>
-        <div class="capability-container">
-          <div class="capability-image">
+        <div className="capability-container">
+          <div className="capability-image">
             <img src={CapabilityImg} alt="Capability " />
-            <div class="capability-tagline">
+            <div className="capability-tagline">
               <h2>Driving Digital Excellence, Together</h2>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Capabilities = () => {
                 </h2>
               </div>
               <p style={{ color: "#555", lineHeight: "2.2", fontSize: "20px" }}>
-                ScaledAI is a dynamic women owned small business that focuses on
+                ScaledAI is a dynamic women-owned small business that focuses on
                 aligning the technology needs of the public sector to enhance
                 performance, safeguard investments, and achieve modernization
                 and digital transformation objectives.
@@ -107,6 +107,7 @@ const Capabilities = () => {
                 cycle.
               </p>
             </div>
+
           </div>
         </div>
       </div>
@@ -170,11 +171,11 @@ const Capabilities = () => {
                   <p>Predictive Analytics</p>
                 </div>
                 <div className="icon-item">
-                  <FaSyncAlt className="icon" />
+                  <BsDatabaseFillGear className="icon" />
                   <p>Data Visualization</p>
                 </div>
                 <div className="icon-item">
-                  <FaRegListAlt className="icon" />
+                  <BsFillClipboard2DataFill className="icon" />
                   <p>Data Driven Insights</p>
                 </div>
               </div>

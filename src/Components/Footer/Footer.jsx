@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Logo from '../../assets/Images/logoDraft-removebg-preview.png'
+import Logo from '../../assets/logo-black.png'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="widget widegt_about">
 									<div className="widget_title">
-										<img src={Logo} style={{ width: '250px' }} className="img-fluid" alt="" />
+										<img src={Logo} style={{ width: '200px' }} className="img-fluid" alt="" />
 									</div>
 									<p>At ScaledAI, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
 									<ul className="social">

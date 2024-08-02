@@ -1,36 +1,36 @@
 import React from 'react'
 import Main from './Main'
 import { Fade } from "react-awesome-reveal"
-import gif from '../../assets/Images/hero-vid.mp4'
+import gif from '../../assets/Images/landing-new.png'
 import './Hero.css'
 const Hero = () => {
-    document.addEventListener('DOMContentLoaded', (event) => {
-        const video = document.getElementById('background-video');
+    // document.addEventListener('DOMContentLoaded', (event) => {
+    //     const video = document.getElementById('background-video');
 
-        video.addEventListener('fullscreenchange', (event) => {
-            if (document.fullscreenElement) {
-                document.exitFullscreen();
-            }
-        });
+    //     video.addEventListener('fullscreenchange', (event) => {
+    //         if (document.fullscreenElement) {
+    //             document.exitFullscreen();
+    //         }
+    //     });
 
-        video.addEventListener('webkitfullscreenchange', (event) => {
-            if (document.webkitFullscreenElement) {
-                document.webkitExitFullscreen();
-            }
-        });
+    //     video.addEventListener('webkitfullscreenchange', (event) => {
+    //         if (document.webkitFullscreenElement) {
+    //             document.webkitExitFullscreen();
+    //         }
+    //     });
 
-        video.addEventListener('mozfullscreenchange', (event) => {
-            if (document.mozFullScreenElement) {
-                document.mozCancelFullScreen();
-            }
-        });
+    //     video.addEventListener('mozfullscreenchange', (event) => {
+    //         if (document.mozFullScreenElement) {
+    //             document.mozCancelFullScreen();
+    //         }
+    //     });
 
-        video.addEventListener('msfullscreenchange', (event) => {
-            if (document.msFullscreenElement) {
-                document.msExitFullscreen();
-            }
-        });
-    });
+    //     video.addEventListener('msfullscreenchange', (event) => {
+    //         if (document.msFullscreenElement) {
+    //             document.msExitFullscreen();
+    //         }
+    //     });
+    // });
 
 
     return (
@@ -38,9 +38,10 @@ const Hero = () => {
             <Fade>
                 <section className='hero'>
                     <div className='background-video'>
-                        <video id='background-video' autoPlay loop muted controlsList="nofullscreen">
+                        {/* <video id='background-video' autoPlay loop muted controlsList="nofullscreen">
                             <source src={gif} type="video/mp4" />
-                        </video>
+                        </video> */}
+                        <img id='background-video' src={gif}/>
                     </div>
                     <div className='content-overlay'>
                         <div className='container'>
@@ -60,7 +61,7 @@ const Hero = () => {
                                             <button className='btn btn-danger btn-lg' style={{borderRadius:'30px'}}><a href='#main' style={{color:'white', textDecoration:'none'}}>Explore More</a></button>
                                         </div> */}
                                         <a href='#main'>
-                                            <div class="scroll-down2"></div> </a>
+                                            <div className="scroll-down2"></div> </a>
                                     </div>
                                 </div>
                             </div>
