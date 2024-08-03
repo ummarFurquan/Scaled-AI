@@ -41,7 +41,7 @@ const Capabilities = () => {
           <div className="capability-image">
             <img src={CapabilityImg} alt="Capability " />
             <div className="capability-tagline">
-              <h2> Driving Digital Excellence, <span>Together</span></h2>
+              <h2> Driving Digital Excellence, <span style={{color:'#af3129'}}>Together</span></h2>
             </div>
           </div>
         </div>

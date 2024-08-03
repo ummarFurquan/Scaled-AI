@@ -35,7 +35,7 @@
 
 .capability-tagline h2 {
   font-size: clamp(1.5rem, 5vw, 4rem);
-  color: #af3129;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   overflow: hidden;
