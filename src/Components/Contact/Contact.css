@@ -75,7 +75,7 @@ textarea::placeholder {
 .contact-form .send-button {
     border: none;
     outline: none;
-    background-color: #dc3545;
+    background-color: #af3129;
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;

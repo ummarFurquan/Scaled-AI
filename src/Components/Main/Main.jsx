@@ -22,7 +22,7 @@ const Main = () => {
           <div className="container">
             <div className="row">
               <div className="heading-container">
-                <h1 className="card-title responsive-title" style={{ overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <h1 className="card-title responsive-title" style={{ overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center', color:'#af3129' }}>
                   Overview
                 </h1>
               </div>
@@ -59,14 +59,14 @@ const Main = () => {
               </div>
 
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'column' }}>
-                <h1 style={{ overflow: 'hidden', fontWeight: '500', fontSize: '50px', marginBottom: '40px', marginTop: '50px', color: '#dc3545' }}>About Us</h1>
+                <h1 style={{ overflow: 'hidden', fontWeight: '500', fontSize: '50px', marginBottom: '40px', marginTop: '50px', color: '#af3129' }}>About Us</h1>
               </div>
               <div className="col-xs-12 col-md-6">
                 <img src='https://images.stockcake.com/public/0/1/7/017d5c2c-3f69-45aa-a1d7-20b0bebc677d_large/team-celebrates-success-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '100%', borderRadius: '20px' }} />
               </div>
               <div className="col-xs-12 col-md-6 md-mt-5">
                 <div className="about-text" style={{marginLeft:'30px', marginTop:'5px'}}>
-                  <p style={{ fontSize: '20px', fontWeight: '400', textAlign:'left', lineHeight:'32px',marginTop:'5px',  whiteSpace:'balance'}}><span style={{ color: '#dc3545', fontSize: '30px', fontWeight: '500' }}>ScaledAI</span> stands as a leading provider of transformative technology solutions, empowering both commercial enterprises and federal agencies to achieve their core missions. Our commitment is to deliver tailored, impactful   solutions that propel organizations forward in an ever-evolving digital landscape. Our team comprises seasoned professionals with extensive expertise and a deep understanding of federal agencies' distinct challenges. Committed to driving impactful change, we specialize in managing complex technology transformations and delivering innovative solutions for the public sector.</p>
+                  <p style={{ fontSize: '20px', fontWeight: '400', textAlign:'left', lineHeight:'32px',marginTop:'5px',  whiteSpace:'balance'}}><span style={{ color: '#af3129', fontSize: '30px', fontWeight: '500' }}>ScaledAI</span> stands as a leading provider of transformative technology solutions, empowering both commercial enterprises and federal agencies to achieve their core missions. Our commitment is to deliver tailored, impactful   solutions that propel organizations forward in an ever-evolving digital landscape. Our team comprises seasoned professionals with extensive expertise and a deep understanding of federal agencies' distinct challenges. Committed to driving impactful change, we specialize in managing complex technology transformations and delivering innovative solutions for the public sector.</p>
                 </div>
               </div>
             </div>
@@ -74,10 +74,10 @@ const Main = () => {
         </div>
         <Fade>
           <div className="container">
-            <h1 style={{ textAlign: 'center', margin: '2rem 0', overflow: 'hidden', color: '#dc3545', marginTop: '100px', marginBottom: '100px', fontWeight: '500', fontSize: '50px' }}>Mission and Vision</h1>
+            <h1 style={{ textAlign: 'center', margin: '2rem 0', overflow: 'hidden', color: '#af3129', marginTop: '100px', marginBottom: '100px', fontWeight: '500', fontSize: '50px' }}>Mission and Vision</h1>
             <div className="row align-items-center mb-4">
               <div className="col-md-6">
-                <p style={{ fontSize: '20px', fontWeight: '400' }}>Our<span style={{ color: '#dc3545' }}> mission</span> is to deliver cutting-edge technology that enables customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life.
+                <p style={{ fontSize: '20px', fontWeight: '400' }}>Our<span style={{ color: '#af3129' }}> mission</span> is to deliver cutting-edge technology that enables customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life.
                 </p>
               </div>
               <div className="col-md-6">
@@ -86,7 +86,7 @@ const Main = () => {
             </div>
             <div className="row align-items-center" style={{ marginBottom: '30px' }}>
               <div className="col-md-6 order-md-2">
-                <p style={{ fontSize: '20px', fontWeight: '400' }}>Our <span style={{ color: '#dc3545' }}>vision</span> is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development.</p>
+                <p style={{ fontSize: '20px', fontWeight: '400' }}>Our <span style={{ color: '#af3129' }}>vision</span> is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development.</p>
               </div>
               <div className="col-md-6 order-md-1">
                 <img src={Visions} alt="Vision" className="img-fluid" style={{ height: '10%', borderRadius: '20px' }} />
@@ -96,7 +96,7 @@ const Main = () => {
         </Fade>
         <div className="container">
           <div className="heading-container" style={{ textAlign: 'center', margin: '2rem 0' }}>
-            <h1 style={{ overflow: 'hidden', color: '#dc3545' }}>Our Capabilities</h1>
+            <h1 style={{ overflow: 'hidden', color: '#af3129' }}>Our Capabilities</h1>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">

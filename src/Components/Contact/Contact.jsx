@@ -60,7 +60,7 @@ const Contact = () => {
             <h5
               className="card-title-header"
               style={{
-                backgroundColor: "#dc3545",
+                backgroundColor: "#af3129",
                 borderRadius: "10px",
                 padding: "10px 10px 10px 10px",
                 fontWeight: "700",

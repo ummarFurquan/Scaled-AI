@@ -13,7 +13,7 @@ const Accordian = () => {
     <div className="accordion" id="accordionPanelsStayOpenExample">
       <div className="accordion-item">
         <h2 className="accordion-header" id="panelsStayOpen-headingOne">
-          <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style={{ fontFamily: 'Montserrat', fontSize: '25px' }}>
+          <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style={{ fontFamily: 'Montserrat', fontSize: '20px' }}>
             Assessment and Strategy Development <BsGraphUp style={{ marginLeft: "20px", scale: '1.3' }} />
           </button>
         </h2>
@@ -32,7 +32,7 @@ const Accordian = () => {
       </div>
       <div className="accordion-item">
         <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
-          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style={{ fontFamily: 'Montserrat', fontSize: '25px' }}>
+          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style={{ fontFamily: 'Montserrat', fontSize: '20px' }}>
             Tailored Solutions and Implementation <BsPersonFillGear style={{ marginLeft: '20px', scale: '1.4' }} />
           </button>
         </h2>
@@ -51,7 +51,7 @@ const Accordian = () => {
       </div>
       <div className="accordion-item">
         <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style={{ fontFamily: 'Montserrat', fontSize: '25px' }}>
+          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style={{ fontFamily: 'Montserrat', fontSize: '20px' }}>
             Training and Knowledge Transfer <FaPersonChalkboard style={{ marginLeft: "20px", scale: '1.3' }} />
           </button>
         </h2>
@@ -69,7 +69,7 @@ const Accordian = () => {
       </div>
       <div className="accordion-item">
         <h2 className="accordion-header" id="panelsStayOpen-headingFour">
-          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour" style={{ fontFamily: 'Montserrat', fontSize: '25px' }}>
+          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour" style={{ fontFamily: 'Montserrat', fontSize: '20px' }}>
             Continuous Support and Optimization <MdOutlineSupportAgent style={{ marginLeft: "20px", scale: '1.4' }} />
           </button>
         </h2>
@@ -86,7 +86,7 @@ const Accordian = () => {
       </div>
       <div className="accordion-item">
         <h2 className="accordion-header" id="panelsStayOpen-headingFive">
-          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive" style={{ fontFamily: 'Montserrat', fontSize: '25px' }}>
+          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive" style={{ fontFamily: 'Montserrat', fontSize: '20px' }}>
             Build Long-Lasting Client Relations <VscWorkspaceTrusted style={{ marginLeft: "20px", scale: '1.3' }} />
           </button>
         </h2>

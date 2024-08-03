@@ -45,7 +45,7 @@
 }
 
 .text-danger {
-  color: red;
+  color: #af3129;
   font-family: 'Impact', sans-serif;
   font-weight: 500;
 }
@@ -92,7 +92,7 @@
       height: 6px;
       border-radius: 100%;
       transform: translateX(-50%);
-      background: #dc3545;
+      background: #af3129;
       animation: scrollDown2 1.5s ease infinite;
   }
   &:after{

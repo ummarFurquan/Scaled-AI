@@ -4,7 +4,7 @@
 
 .card-icon:hover {
     transform: scale(1.05);
-    color: #dc3545;
+    color: #af3129;
     cursor: pointer;
 }
 
@@ -22,7 +22,7 @@
     }
     .responsive-title {
         font-size: calc(3rem + 1vw);
-        color: #dc3545; /* Heading color */
+        color: #af3129; /* Heading color */
         margin-bottom: 10px;
         font-weight: 400;
     }
@@ -39,7 +39,7 @@
     }
     .responsive-title {
         font-size: calc(1.8rem + 1vw);
-        color: #dc3545; /* Heading color */
+        color: #af3129; /* Heading color */
         font-weight: 400;
     }
     .responsive-text {
@@ -55,7 +55,7 @@
     }
     .responsive-title {
         font-size: 3rem;
-        color: #dc3545; /* Heading color */
+        color: #af3129; /* Heading color */
         margin-bottom: 10px;
         font-weight: 500;
     }

@@ -6,10 +6,10 @@ import Approach from '../Approach/Approach';
 
 const About = () => {
   const aboutUsContent = `<div style="overflow-y:hidden;">
-  <div style="display: flex; justify-content:center; align-items:center;">
+  <div style="display: flex; justify-content:center; align-items:center; text-decoration:none;">
   <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px;">About Us</h1>
   </div>
-  <b>ScaledAI</b> is a leading technology solutions provider dedicated to empowering commercial and federal organizations to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</div>`;
+  <b>ScaledAI</b>is a leading technology solutions provider dedicated to empowering commercial and federal organizations to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</div>`;
 
   const valuesContent = `
   <div style="display: flex; justify-content:center; align-items:center;">
@@ -45,7 +45,7 @@ const About = () => {
 <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
   <div class="circle" style="width: 110px; height: 50px; border-radius: 50%; background-color: #dc3545; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px; ">M</div>
   <div style="flex-grow: 3;">
-    <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
+    <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden; font-size:20px;">
       <strong class="heading">Mutual Respect:</strong> We value diversity and treat every individual with dignity and respect. By fostering an inclusive culture where differences are celebrated, we create a sense of belonging and mutual appreciation within our team.
     </div>
   </div>

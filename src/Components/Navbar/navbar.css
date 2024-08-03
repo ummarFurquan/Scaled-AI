@@ -1,5 +1,5 @@
 .nav{
-    scale: 0.7;
+    scale: 1;
 }
 
 .nav-item > a {
@@ -8,5 +8,17 @@
 }
 
 .active-link {
-    color: #dc3545 !important;
+    color: #af3129 !important;
+}
+
+
+.contact-btn{
+    width: 130px;
+    height: 45px;
+    outline: none;
+    border: 1px solid #af3129;
+}
+
+.contact-btn:hover{
+    background-color: #a82920;
 }

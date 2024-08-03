@@ -10,9 +10,9 @@ const Approach = () => {
     <Fade>
     <div className='approach'>
       <div className="logo-container">
-        <img src={AboutBack} style={{width:'100vw', height:'80vh', objectFit:'cover' }} alt='approach'/>
+        <hr style={{color:'#dc3545'}}/>
         <div className="heading-1">
-          <p style={{overflowY: "hidden", color:'black', fontSize:'25px'}}>Our proven approach to navigating the complexities of technological transformation is achieved by following these core tenets</p>
+          <p style={{overflowY: "hidden", color:'black', fontSize:'23px'}}>Our proven approach to navigating the complexities of technological transformation is achieved by following these core tenets</p>
         </div>
       </div>
     </div>

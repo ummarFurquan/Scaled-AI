@@ -34,7 +34,7 @@ function App() {
         <Footer />
       </div>
       <ScrollToTop
-      color='#dc3545'
+      color='#af3129'
       />
     </Router>
     </>
