@@ -16,7 +16,7 @@ const Footer = () => {
 							<div className="col-lg-4 col-md-6 col-12">
 								<div className="widget widegt_about">
 									<div className="widget_title">
-										<img src={Logo} style={{ width: '250px' }} className="img-fluid" alt="" />
+										<img src={Logo} style={{ width: '190px' }} className="img-fluid" alt="" />
 									</div>
 									<p>At ScaledAI, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
 									<ul>
@@ -52,7 +52,7 @@ const Footer = () => {
 												<i className="fas fa-phone-alt"></i>
 											</div>
 											<div className="info">
-												<p><a href="tel:646-240-3641">646-240-3641</a></p>
+												<p><a href="tel:646-240-3641">571-277-5901</a></p>
 											</div>
 										</div>
 										<div className="single_info">

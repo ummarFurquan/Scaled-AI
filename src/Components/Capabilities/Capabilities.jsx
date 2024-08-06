@@ -41,11 +41,13 @@ const Capabilities = () => {
           <div className="capability-image">
             <img src={CapabilityImg} alt="Capability " />
             <div className="capability-tagline">
-              <h2> Driving Digital Excellence, <span style={{color:'#af3129'}}>Together</span></h2>
-            </div>
+              <h2> Driving Digital Excellence, <span style={{
+                color: '#af3129',
+                fontFamily: "'Impact', sans-serif",fontWeight:'500'}}>Together</span></h2>
           </div>
         </div>
-      </Fade>
+      </div>
+    </Fade >
       <div className="top" style={{ padding: "50px" }}>
         <div
           style={{
@@ -124,8 +126,8 @@ const Capabilities = () => {
       >
         <h1 style={{ overflow: "hidden" }}>Our Capabilities</h1>
       </div>
-      {/* Cloud Cards */}
-      {/* Data Science */}
+  {/* Cloud Cards */ }
+  {/* Data Science */ }
       <div
         style={{
           margin: "20px 0",
@@ -247,132 +249,132 @@ const Capabilities = () => {
           </div>
         </Fade>
       </div>
-      {/* cyber Card */}
+  {/* cyber Card */ }
+  <div
+    style={{
+      margin: "20px 0",
+      width: "100vw",
+      backgroundColor: "#d3d3d3",
+      padding: "20px",
+    }}
+  >
+    <Fade duration={1000} triggerOnce="true">
       <div
+        className="card"
         style={{
-          margin: "20px 0",
-          width: "100vw",
-          backgroundColor: "#d3d3d3",
-          padding: "20px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
+          padding: "10px",
+          width: "80vw",
+          margin: "0 auto",
         }}
       >
-        <Fade duration={1000} triggerOnce="true">
-          <div
-            className="card"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-              padding: "10px",
-              width: "80vw",
-              margin: "0 auto",
-            }}
-          >
-            <div className="card-body" style={{ textAlign: "center" }}>
-              <h2 style={{ overflow: "hidden", padding: "10px" }}>
-                Cyber Security, Risk and Compliance
-              </h2>
-              <p>
-                Safeguard your organization with advanced cyber security, risk,
-                and compliance services.
-              </p>
-              <div className="icons-grid">
-                <div className="icon-item">
-                  <RiGovernmentLine className="icon" />
-                  <p>Governance, Risk and Compliance</p>
-                </div>
-                <div className="icon-item">
-                  <MdOutlineEngineering className="icon" />
-                  <p>Security Design & Engineering</p>
-                </div>
-                <div className="icon-item">
-                  <VscWorkspaceTrusted className="icon" />
-                  <p>Zero Trust Cyber Architecture</p>
-                </div>
-                <div className="icon-item">
-                  <AiOutlineSecurityScan className="icon" />
-                  <p>Intrusion Monitoring and Prevention</p>
-                </div>
-                <div className="icon-item">
-                  <MdOutlineSecurity className="icon" />
-                  <p>Cybersecurity Defense</p>
-                </div>
-                <div className="icon-item">
-                  <SiSpringsecurity className="icon" />
-                  <p>Security Operations Center (SOC)</p>
-                </div>
-                <div className="icon-item">
-                  <GoShield className="icon" />
-                  <p>Threat Detection & Incident Management</p>
-                </div>
-                <div className="icon-item">
-                  <FaUserShield className="icon" />
-                  <p>Vulnerability Management</p>
-                </div>
-              </div>
+        <div className="card-body" style={{ textAlign: "center" }}>
+          <h2 style={{ overflow: "hidden", padding: "10px" }}>
+            Cyber Security, Risk and Compliance
+          </h2>
+          <p>
+            Safeguard your organization with advanced cyber security, risk,
+            and compliance services.
+          </p>
+          <div className="icons-grid">
+            <div className="icon-item">
+              <RiGovernmentLine className="icon" />
+              <p>Governance, Risk and Compliance</p>
+            </div>
+            <div className="icon-item">
+              <MdOutlineEngineering className="icon" />
+              <p>Security Design & Engineering</p>
+            </div>
+            <div className="icon-item">
+              <VscWorkspaceTrusted className="icon" />
+              <p>Zero Trust Cyber Architecture</p>
+            </div>
+            <div className="icon-item">
+              <AiOutlineSecurityScan className="icon" />
+              <p>Intrusion Monitoring and Prevention</p>
+            </div>
+            <div className="icon-item">
+              <MdOutlineSecurity className="icon" />
+              <p>Cybersecurity Defense</p>
+            </div>
+            <div className="icon-item">
+              <SiSpringsecurity className="icon" />
+              <p>Security Operations Center (SOC)</p>
+            </div>
+            <div className="icon-item">
+              <GoShield className="icon" />
+              <p>Threat Detection & Incident Management</p>
+            </div>
+            <div className="icon-item">
+              <FaUserShield className="icon" />
+              <p>Vulnerability Management</p>
             </div>
           </div>
-        </Fade>
+        </div>
       </div>
+    </Fade>
+  </div>
 
-      {/* Digital Transformation */}
-      <div style={{ margin: "20px 0", width: "100vw", padding: "20px" }}>
-        <Fade duration={1000} triggerOnce={true}>
-          <div
-            className="card"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-              padding: "10px",
-              width: "80vw",
-              margin: "0 auto",
-            }}
-          >
-            <div className="card-body" style={{ textAlign: "center" }}>
-              <h2 style={{ overflow: "hidden", padding: "10px" }}>
-                Digital Transformation
-              </h2>
-              <p>
-                Accelerate innovation and efficiency through our comprehensive
-                digital transformation expertise.
-              </p>
-              <div className="icons-grid">
-                <div className="icon-item">
-                  <MdDeveloperMode className="icon" />
-                  <p>Legacy Application Development</p>
-                </div>
-                <div className="icon-item">
-                  <FaClipboardCheck className="icon" />
-                  <p>Low Code Solutions</p>
-                </div>
-                <div className="icon-item">
-                  <MdOutlineBrightnessAuto className="icon" />
-                  <p>Process Automation</p>
-                </div>
-                <div className="icon-item">
-                  <FaShieldAlt className="icon" />
-                  <p>System and Data Integrations</p>
-                </div>
-                <div className="icon-item">
-                  <FaSyncAlt className="icon" />
-                  <p>Managed IT Operations</p>
-                </div>
-                <div className="icon-item">
-                  <FaRegListAlt className="icon" />
-                  <p>Project Management</p>
-                </div>
-                <div className="icon-item">
-                  <GiProgression className="icon" />
-                  <p>CMMI Appraisals</p>
-                </div>
-              </div>
+  {/* Digital Transformation */ }
+  <div style={{ margin: "20px 0", width: "100vw", padding: "20px" }}>
+    <Fade duration={1000} triggerOnce={true}>
+      <div
+        className="card"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
+          padding: "10px",
+          width: "80vw",
+          margin: "0 auto",
+        }}
+      >
+        <div className="card-body" style={{ textAlign: "center" }}>
+          <h2 style={{ overflow: "hidden", padding: "10px" }}>
+            Digital Transformation
+          </h2>
+          <p>
+            Accelerate innovation and efficiency through our comprehensive
+            digital transformation expertise.
+          </p>
+          <div className="icons-grid">
+            <div className="icon-item">
+              <MdDeveloperMode className="icon" />
+              <p>Legacy Application Development</p>
+            </div>
+            <div className="icon-item">
+              <FaClipboardCheck className="icon" />
+              <p>Low Code Solutions</p>
+            </div>
+            <div className="icon-item">
+              <MdOutlineBrightnessAuto className="icon" />
+              <p>Process Automation</p>
+            </div>
+            <div className="icon-item">
+              <FaShieldAlt className="icon" />
+              <p>System and Data Integrations</p>
+            </div>
+            <div className="icon-item">
+              <FaSyncAlt className="icon" />
+              <p>Managed IT Operations</p>
+            </div>
+            <div className="icon-item">
+              <FaRegListAlt className="icon" />
+              <p>Project Management</p>
+            </div>
+            <div className="icon-item">
+              <GiProgression className="icon" />
+              <p>CMMI Appraisals</p>
             </div>
           </div>
-        </Fade>
+        </div>
       </div>
+    </Fade>
+  </div>
     </>
   );
 };

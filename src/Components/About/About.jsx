@@ -63,7 +63,7 @@ const About = () => {
   <div style="display: flex; justify-content:center; align-items:center;">
     <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px; font-weight: bold;">Our Vision</h1>
   </div>
-  <div style="overflow-y:hidden; font-weight: normal;">Our Vision is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development.</div>`;
+  <div style="overflow-y:hidden; font-weight: normal;">Our vision is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development.</div>`;
 
   const [content, setContent] = useState(aboutUsContent);
   const [activeButton, setActiveButton] = useState('aboutUs');
