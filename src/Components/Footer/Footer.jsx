@@ -10,7 +10,7 @@ const Footer = () => {
 
 		<>
 			<footer className="deneb_footer footer navbarfixed-bottom" style={{marginTop:'30px'}} >
-				<div className="widget_wrapper" style={{ backgroundColor: '#e5e5e5' }}>
+				<div className="widget_wrapper" style={{ backgroundColor: '#D3D3D3' }}>
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-4 col-md-6 col-12">
@@ -25,8 +25,7 @@ const Footer = () => {
 										</li>
 									</ul>
 									<ul className="social">
-										<li><a href="https://www.linkedin.com/company/agilitnet/" rel="noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a></li>
-										<li><a href="/" rel="noreferrer" target='_blank'><i className="fab fa-twitter"></i></a></li>
+										<li><a href="https://www.linkedin.com/company/104761353" rel="noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a></li>
 									</ul>
 								</div>
 							</div>

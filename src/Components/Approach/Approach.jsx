@@ -1,6 +1,5 @@
 import React from 'react'
 import './Approach.css'
-import AboutBack from '../../assets/Images/approachback.png'
 import { Fade } from 'react-awesome-reveal'
 import Accordian from './Charts/Section/Accordian/Accordian'
 import Section from './Charts/Section/Section'

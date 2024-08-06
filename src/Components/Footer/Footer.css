@@ -22,6 +22,7 @@
 .deneb_footer .widget_wrapper .widegt_about .social li {
     display: inline-block;
     margin-left: 0px;
+    scale: 1.4;
 }
 .deneb_footer .widget_wrapper .widegt_about .social li a {
     display: flex;
@@ -44,7 +45,6 @@
 }
 .deneb_footer .widget_wrapper .widegt_about .social li a:hover{
     color: #af3129;
-    transform: scale(1.01);
 }
 .deneb_footer .widget_wrapper .widget_link ul li {
     margin-bottom: 5px;

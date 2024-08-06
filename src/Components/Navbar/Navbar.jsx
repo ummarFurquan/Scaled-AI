@@ -7,7 +7,7 @@ import './navbar.css'
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary border" style={{ backgroundColor: 'gray', boxShadow: ' rgba(0, 0, 0, 0.3) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px' , padding:'0'}}>
+      <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary border" style={{ backgroundColor: '#D3D3D3', boxShadow: ' rgba(0, 0, 0, 0.3) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px' , padding:'0'}}>
         <div className="container">
           <a  href="/" className="navbar">
             <img src={Logo} alt='Agilitnet Logo' style={{ height:'80px', width:'150px' }} />
