@@ -16,9 +16,9 @@ const Section = () => {
   return (
     <div style={{marginTop:'20px', marginBottom:'30px'}}>
         <div style={{display:'flex', justifyContent:'center', alignItems:'center', marginBottom:'50px'}}>
-        <h1 style={{overflow:'hidden', color:'red', padding:'20px', fontFamily:'Montserrat'}}>Key Benefits of Partnering with ScaledAI </h1>
+        <h1 style={{overflow:'hidden', color:'#af3129', padding:'20px', fontFamily:'Montserrat'}}>Key Benefits of Partnering with ScaledAI </h1>
         </div>
-      <VerticalTimeline lineColor='#dc3545'>
+      <VerticalTimeline lineColor='#b13a32'>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff',scale:'1.1', marginTop:'20px' }}

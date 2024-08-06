@@ -1,67 +1,70 @@
 import React, { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
-// import AboutImg from '../../assets/Images/about-new.jpg'
+import AboutImg from '../../assets/Images/about-new.jpg'
 import './About.css';
 import Approach from '../Approach/Approach';
 
 const About = () => {
-  const aboutUsContent = `<div style="overflow-y:hidden;">
-  <div style="display: flex; justify-content:center; align-items:center; text-decoration:none;">
-  <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px;">About Us</h1>
-  </div>
-  <b>ScaledAI</b>is a leading technology solutions provider dedicated to empowering commercial and federal organizations to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</div>`;
+  const aboutUsContent = `
+  <div style="overflow-y:hidden;">
+    <div style="display: flex; justify-content:center; align-items:center; text-decoration:none;">
+      <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px; font-weight: bold;">About Us</h1>
+    </div>
+    <p style="font-weight: normal;"><b>ScaledAI</b> is a leading technology solutions provider dedicated to empowering commercial and federal organizations to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</p>
+  </div>`;
 
   const valuesContent = `
   <div style="display: flex; justify-content:center; align-items:center;">
-  <h1 style="overflow-y:hidden; overflow-x:hidden;">Our Values</h1>
+    <h1 style="overflow-y:hidden; overflow-x:hidden; font-weight: bold;">Our Values</h1>
   </div>
   <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="circle" style="width: 90px; height: 50px; border-radius: 50%; background-color: #dc3545; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px;">T</div>
-  <div style="flex-grow: 1;">
-    <div  style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden; overflow-x:hidden">
-      <strong class="heading">Trust:</strong> Trust is the cornerstone of our relationships, both internally and externally. We foster an environment where trust is earned through honesty, transparency, and reliability.
+    <div class="circle" style="width: 90px; height: 50px; border-radius: 50%; background-color: #af3129; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px;">T</div>
+    <div style="flex-grow: 1;">
+      <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden; overflow-x:hidden">
+        <strong class="heading">Trust:</strong> <span style="font-weight: normal;">Trust is the cornerstone of our relationships, both internally and externally. We foster an environment where trust is earned through honesty, transparency, and reliability.</span>
+      </div>
     </div>
-  </div>
-</li>
+  </li>
 
-<li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="circle" style="width: 110px; height: 50px; border-radius: 50%; background-color: #dc3545; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px;">E</div>
-  <div style="flex-grow: 1;">
-    <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
-      <strong class="heading">Empowerment:</strong> We empower our team to take initiative, make decisions, and innovate. By providing autonomy and support, we enable individuals to reach their full potential and contribute to the success of the team.
+  <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
+    <div class="circle" style="width: 110px; height: 50px; border-radius: 50%; background-color: #af3129; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px;">E</div>
+    <div style="flex-grow: 1;">
+      <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
+        <strong class="heading">Empowerment:</strong> <span style="font-weight: normal;">We empower our team to take initiative, make decisions, and innovate. By providing autonomy and support, we enable individuals to reach their full potential and contribute to the success of the team.</span>
+      </div>
     </div>
-  </div>
-</li>
+  </li>
 
-<li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="circle" style="width: 110px; height: 50px; border-radius: 50%; background-color: #dc3545; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px;">A</div>
-  <div style="flex-grow: 1;">
-    <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
-      <strong class="heading" style= "padding: 5px;">Agility:</strong> Agility is our ability to adapt and respond quickly to changing circumstances and opportunities. We embrace flexibility and nimbleness, allowing us to stay ahead of the curve and seize new possibilities.
+  <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
+    <div class="circle" style="width: 110px; height: 50px; border-radius: 50%; background-color: #af3129; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px;">A</div>
+    <div style="flex-grow: 1;">
+      <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
+        <strong class="heading" style= "padding: 5px;">Agility:</strong> <span style="font-weight: normal;">Agility is our ability to adapt and respond quickly to changing circumstances and opportunities. We embrace flexibility and nimbleness, allowing us to stay ahead of the curve and seize new possibilities.</span>
+      </div>
     </div>
-  </div>
-</li>
+  </li>
 
-<li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
-  <div class="circle" style="width: 110px; height: 50px; border-radius: 50%; background-color: #dc3545; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px; ">M</div>
-  <div style="flex-grow: 3;">
-    <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden; font-size:20px;">
-      <strong class="heading">Mutual Respect:</strong> We value diversity and treat every individual with dignity and respect. By fostering an inclusive culture where differences are celebrated, we create a sense of belonging and mutual appreciation within our team.
+  <li class="value-item" style="list-style:none; display: flex; align-items: center; margin-bottom: 20px;">
+    <div class="circle" style="width: 110px; height: 50px; border-radius: 50%; background-color: #af3129; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 30px; margin-right: 20px; ">M</div>
+    <div style="flex-grow: 3;">
+      <div style="display: flex; flex-direction: column; align-items: flex-start; overflow-y:hidden;">
+        <strong class="heading">Mutual Respect:</strong> <span style="font-weight: normal;">We value diversity and treat every individual with dignity and respect. By fostering an inclusive culture where differences are celebrated, we create a sense of belonging and mutual appreciation within our team.</span>
+      </div>
     </div>
-  </div>
-</li>
-`;
+  </li>
+  `;
 
   const MissionContent = `
   <div style="display: flex; justify-content:center; align-items:center;">
-  <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px;">Our Mission</h1>
+    <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px; font-weight: bold;">Our Mission</h1>
   </div>
-  <div style="overflow-y:hidden;">Our mission is to deliver cutting-edge technology that enables customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life.</div>`;
+  <div style="overflow-y:hidden; font-weight: normal;">Our mission is to deliver cutting-edge technology that enables customers to fulfill their mission of serving society, driving positive change, and enhancing quality of life.</div>`;
+
   const VisionContent = `
   <div style="display: flex; justify-content:center; align-items:center;">
-  <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px;">Our Vision</h1>
+    <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px; font-weight: bold;">Our Vision</h1>
   </div>
-    <div style="overflow-y:hidden;">Our Vision is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development.</div>`;
+  <div style="overflow-y:hidden; font-weight: normal;">Our Vision is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development.</div>`;
 
   const [content, setContent] = useState(aboutUsContent);
   const [activeButton, setActiveButton] = useState('aboutUs');
@@ -84,8 +87,8 @@ const About = () => {
               <button className={`btn btn-outline-danger mx-5 ${activeButton === 'values' ? 'active' : ''}`} onClick={() => handleButtonClick('values', valuesContent)}>WHAT WE VALUE</button>
             </div>
 
-            <div className="para-container my-3" style={{ borderLeft: '2px solid red', padding: '20px', fontSize: '30px', fontWeight: '500' }}>
-              <h5 dangerouslySetInnerHTML={{ __html: content }}></h5>
+            <div className="para-container my-3" style={{ borderLeft: '2px solid #af3129', padding: '20px' }}>
+              <div dangerouslySetInnerHTML={{ __html: content }} style={{ fontSize: '20px', fontWeight: 'normal' }}></div>
             </div>
           </div>
         </div>

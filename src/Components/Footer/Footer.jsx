@@ -19,6 +19,11 @@ const Footer = () => {
 										<img src={Logo} style={{ width: '250px' }} className="img-fluid" alt="" />
 									</div>
 									<p>At ScaledAI, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
+									<ul>
+										<li>𝗖𝗔𝗚𝗘 𝗖𝗼𝗱𝗲: 9YVL4</li>
+										<li>𝗨𝗘𝗜: QWC2BFE27RD6
+										</li>
+									</ul>
 									<ul className="social">
 										<li><a href="https://www.linkedin.com/company/agilitnet/" rel="noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a></li>
 										<li><a href="/" rel="noreferrer" target='_blank'><i className="fab fa-twitter"></i></a></li>
@@ -28,7 +33,7 @@ const Footer = () => {
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="widget widget_link">
 									<div className="widget_title">
-										<h4>Links</h4>
+										<h4 style={{marginTop:'25px'}}>Links</h4>
 									</div>
 									<ul>
 										<li><Link to='/about'>About Us</Link></li>
@@ -40,7 +45,7 @@ const Footer = () => {
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="widget widget_contact">
 									<div className="widget_title">
-										<h4>Contact Us</h4>
+										<h4 style={{marginTop:'25px'}}>Contact Us</h4>
 									</div>
 									<div className="contact_info">
 										<div className="single_info">

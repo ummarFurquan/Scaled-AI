@@ -81,7 +81,7 @@ const Capabilities = () => {
                 <h2
                   style={{
                     marginBottom: "20px",
-                    color: "#dc3545",
+                    color: "#a13b32",
                     overflow: "hidden",
                   }}
                 >
@@ -119,7 +119,7 @@ const Capabilities = () => {
           alignItems: "center",
           marginTop: "50px",
           marginBottom: "10px",
-          color: "#dc3545",
+          color: "#af3129",
         }}
       >
         <h1 style={{ overflow: "hidden" }}>Our Capabilities</h1>
