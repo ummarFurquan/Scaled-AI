@@ -12,7 +12,7 @@ const Approach = () => {
             <h1 style={{ overflow: 'hidden', color: '#af3129', fontFamily: 'Montserrat', marginBottom: '10px' }}>Our Approach</h1>
           </div>
           <div className="heading-1">
-            <div className="card" style={{marginBottom:'20px', padding:'0px', border:'1px solid #af3129'}}>
+            <div className="card" style={{marginBottom:'20px',marginRight:'30px', padding:'0px',boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px'}}>
               <div className="card-body">
                 <p style={{ overflowY: "hidden", color: 'black', fontSize: '20px' }}>
                   Our proven approach to navigating the complexities of technological transformation is achieved by following these core tenets

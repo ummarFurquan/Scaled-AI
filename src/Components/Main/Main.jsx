@@ -65,7 +65,7 @@ const Main = () => {
                 <img src='https://images.stockcake.com/public/0/1/7/017d5c2c-3f69-45aa-a1d7-20b0bebc677d_large/team-celebrates-success-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '100%', borderRadius: '20px' }} />
               </div>
               <div className="col-xs-12 col-md-6 md-mt-5">
-                <div className="about-text" style={{marginLeft:'30px', marginTop:'5px'}}>
+                <div className="about-text" style={{marginTop:'5px'}}>
                   <p style={{ fontSize: '20px', fontWeight: '400', textAlign:'left', lineHeight:'32px',marginTop:'5px',  whiteSpace:'balance'}}><span style={{ color: '#af3129', fontSize: '30px', fontWeight: '500' }}>ScaledAI</span> stands as a leading provider of transformative technology solutions, empowering both commercial enterprises and federal agencies to achieve their core missions. Our commitment is to deliver tailored, impactful   solutions that propel organizations forward in an ever-evolving digital landscape. Our team comprises seasoned professionals with extensive expertise and a deep understanding of federal agencies' distinct challenges. Committed to driving impactful change, we specialize in managing complex technology transformations and delivering innovative solutions for the public sector.</p>
                 </div>
               </div>
