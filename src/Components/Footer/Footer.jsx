@@ -68,7 +68,7 @@ const Footer = () => {
 												<i className="fas fa-map-marker-alt"></i>
 											</div>
 											<div className="info">
-												<a href='https://tinyurl.com/5d7a99mt' style={{ textDecoration: 'none', color: 'black' }} target='_blank' rel='noreferrer'>
+												<a href='http://tiny.cc/z18jzz' style={{ textDecoration: 'none', color: 'black' }} target='_blank' rel='noreferrer'>
 													<p>722 E Market St, <span>STE 102 OFC A69,</span> Leesburg VA 20176</p>
 												</a>
 											</div>

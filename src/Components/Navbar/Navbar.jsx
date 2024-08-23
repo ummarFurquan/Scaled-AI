@@ -54,7 +54,7 @@ const Navbar = () => {
             </ul>
 
             <Link to='/contact' style={{ color: 'white', textDecoration: 'none' }}>
-              <button className="btn btn-danger" style={{ borderRadius: '20px'}}>
+              <button className="btn btn-danger" style={{ borderRadius: '20px', color:'#af3129'}}>
                 Contact Us
               </button>
             </Link>
