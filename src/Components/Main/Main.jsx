@@ -1,13 +1,10 @@
 import React from 'react';
-// import Aboutus from '../../assets/Team-Work_Mesa-de-trabajo-1.svg';
-// import vision from '../../assets/vision.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { IoCloudDone } from "react-icons/io5";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { LuBrainCircuit } from "react-icons/lu";
 import { TbTransformFilled } from "react-icons/tb";
-import Missions from '../../assets/Images/missions.png'
-import Visions from '../../assets/Images/visions.png'
+
 
 import { Fade } from 'react-awesome-reveal';
 
@@ -62,7 +59,7 @@ const Main = () => {
                 <h1 style={{ overflow: 'hidden', fontWeight: '500', fontSize: '50px', marginBottom: '40px', marginTop: '50px', color: '#af3129' }}>About Us</h1>
               </div>
               <div className="col-xs-12 col-md-6">
-                <img src='https://images.stockcake.com/public/0/1/7/017d5c2c-3f69-45aa-a1d7-20b0bebc677d_large/team-celebrates-success-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '100%', borderRadius: '20px' }} />
+                <img src='https://images.stockcake.com/public/0/1/7/017d5c2c-3f69-45aa-a1d7-20b0bebc677d_large/team-celebrates-success-stockcake.jpg' className="img-responsive" alt="Hero" style={{ width: '100%', marginBottom: '0', height: '100%', borderRadius: '20px'}} />
               </div>
               <div className="col-xs-12 col-md-6 md-mt-5">
                 <div className="about-text" style={{marginTop:'5px'}}>
@@ -81,7 +78,7 @@ const Main = () => {
                 </p>
               </div>
               <div className="col-md-6">
-                <img src={Missions} alt="Mission" className="img-fluid" style={{ height: '65%', borderRadius: '20px' }} />
+                <img src='https://i.ibb.co/bmGMp8K/mission-final.jpg' alt="Mission" className="img-fluid" style={{ height: '65%', borderRadius: '20px' }} />
               </div>
             </div>
             <div className="row align-items-center" style={{ marginBottom: '30px' }}>
@@ -89,7 +86,7 @@ const Main = () => {
                 <p style={{ fontSize: '20px', fontWeight: '400' }}>Our <span style={{ color: '#af3129' }}>vision</span> is to pioneer transformative digital solutions that empower our customers to achieve optimal efficiency, security, and innovation for global development.</p>
               </div>
               <div className="col-md-6 order-md-1">
-                <img src={Visions} alt="Vision" className="img-fluid" style={{ height: '10%', borderRadius: '20px' }} />
+                <img src='https://i.ibb.co/HFZ5nMn/vision-final.jpg' alt="Vision" className="img-fluid" style={{ height: '10%', borderRadius: '20px' }} />
               </div>
             </div>
           </div>

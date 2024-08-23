@@ -28,7 +28,6 @@ import {
 import { FaUserShield } from "react-icons/fa6";
 import { GoShield } from "react-icons/go";
 import { LuBrainCircuit } from "react-icons/lu";
-import CapabilityImg from "../../assets/Images/Hero Image.png";
 import { BsFillClipboard2DataFill, BsDatabaseFillGear } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
 import "./Capabilities.css";
@@ -39,7 +38,7 @@ const Capabilities = () => {
       <Fade>
         <div className="capability-container">
           <div className="capability-image">
-            <img src={CapabilityImg} alt="Capability " />
+            <img src='https://i.ibb.co/5YBL9Rf/capabilities-image.jpg'  alt="Capability " className="img-fluid" />
             <div className="capability-tagline">
               <h2> Driving Digital Excellence, <span style={{
                 color: '#af3129',

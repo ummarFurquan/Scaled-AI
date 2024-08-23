@@ -13,7 +13,6 @@
     box-shadow: 5px 1px 1px solid black;
     overflow: hidden; /* Ensure no overflow */
 }
-
 /* Media queries for responsive card and text */
 @media (max-width: 575.98px) {
     .responsive-card {

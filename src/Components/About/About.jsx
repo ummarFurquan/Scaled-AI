@@ -78,7 +78,7 @@ const About = () => {
       <Fade>
       <img 
   src="https://images.stockcake.com/public/0/2/f/02f98d6e-9732-498d-af4f-d8f3d4d708ec_large/team-strategy-meeting-stockcake.jpg" 
-  className="img-fluid w-100 vh-70 object-fit-cover"  style={{height:'70vh'}}
+  className="img-fluid w-100 vh-70 object-fit-cover"  loading='lazy' style={{height:'70vh', filter:'brightness(90%)'}}
   alt="About"
 />
         <div className="container" style={{ marginBottom: '90px' }}>
