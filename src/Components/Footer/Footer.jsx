@@ -19,12 +19,12 @@ const Footer = () => {
 										<img src={Logo} style={{ width: '190px' }} className="img-fluid" alt="" />
 									</div>
 									<p>At ScaledAI, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
-									<ul>
-										<li>𝗖𝗔𝗚𝗘 𝗖𝗼𝗱𝗲: 9YVL4</li>
-										<li>𝗨𝗘𝗜: QWC2BFE27RD6
+									<ul style={{padding:'0px'}}>
+										<li><span style={{fontWeight:'bold'}}>CAGE Code</span>: 9YVL4</li>
+										<li><span style={{fontWeight:'bold'}}>UEI</span>: QWC2BFE27RD6
 										</li>
 									</ul>
-									<ul className="social">
+									<ul className="social" style={{marginLeft:'-25px'}}>
 										<li><a href="https://www.linkedin.com/company/104761353" rel="noreferrer" target='_blank'><i className="fab fa-linkedin"></i></a></li>
 									</ul>
 								</div>
