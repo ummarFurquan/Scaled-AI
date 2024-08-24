@@ -39,7 +39,7 @@ const Hero = () => {
                 <section className='hero'>
                     <div className='background-video'>
                         <video id='background-video' autoPlay loop muted controlsList="nofullscreen">
-                            <source src='https://tinyurl.com/te8nwxxr' loading="lazy" type="video/mp4" />
+                            <source src={gif} loading="lazy" type="video/mp4" />
                             {/* https://yourimageshare.com/ib/Lyx9seD2zB */}
                         </video>
                     </div>
