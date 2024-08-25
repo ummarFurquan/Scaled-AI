@@ -9,7 +9,7 @@ const About = () => {
     <div style="display: flex; justify-content:center; align-items:center; text-decoration:none;">
       <h1 style="overflow-y:hidden; overflow-x:hidden; margin-bottom: 10px; font-weight: bold;">About Us</h1>
     </div>
-    <p style="font-weight: normal;"><b>ScaledAI</b> is a leading technology solutions provider dedicated to empowering commercial and federal organizations to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</p>
+    <p style="font-weight: normal;">ScaledAI is a leading technology solutions provider dedicated to empowering commercial and federal organizations to fulfill their mission. With expertise in managing technology transformation initiatives, we navigate the complexities of the public sector to drive impactful change and innovation.</p>
   </div>`;
 
   const valuesContent = `
