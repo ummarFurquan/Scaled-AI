@@ -38,7 +38,7 @@ const Capabilities = () => {
       <Fade>
         <div className="capability-container">
           <div className="capability-image">
-            <img src='https://i.ibb.co/5YBL9Rf/capabilities-image.jpg'  alt="Capability " className="img-fluid" />
+            <img src='https://i.ibb.co/qyD3HGX/Capabilities.jpg'  alt="Capability " className="img-fluid" />
             <div className="capability-tagline">
               <h2> Driving Digital Excellence, <span style={{
                 color: '#af3129',

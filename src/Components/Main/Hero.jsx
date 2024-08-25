@@ -1,7 +1,8 @@
 import React from 'react'
 import Main from './Main'
 import { Fade } from "react-awesome-reveal"
-import gif from '../../assets/Images/hero-vid.mp4'
+import videoSource  from '@/../../src/assets/hero.mp4'
+// src\assets\hero.mp4
 import './Hero.css'
 const Hero = () => {
     document.addEventListener('DOMContentLoaded', (event) => {
@@ -39,8 +40,7 @@ const Hero = () => {
                 <section className='hero'>
                     <div className='background-video'>
                         <video id='background-video' autoPlay loop muted controlsList="nofullscreen">
-                            <source src={gif} loading="lazy" type="video/mp4" />
-                            {/* https://yourimageshare.com/ib/Lyx9seD2zB */}
+                            <source src='https://videos.pexels.com/video-files/27975991/12278781_1920_1080_60fps.mp4' type="video/mp4" />
                         </video>
                     </div>
                     <div className='content-overlay'>

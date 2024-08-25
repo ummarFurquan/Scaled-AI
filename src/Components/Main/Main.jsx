@@ -54,7 +54,6 @@ const Main = () => {
                   </div>
                 </div>
               </div>
-
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', flexDirection: 'column' }}>
                 <h1 style={{ overflow: 'hidden', fontWeight: '500', fontSize: '50px', marginBottom: '40px', marginTop: '50px', color: '#af3129' }}>About Us</h1>
               </div>

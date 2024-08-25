@@ -10,12 +10,12 @@ const Footer = () => {
 
 		<>
 			<footer className="deneb_footer footer navbarfixed-bottom" style={{marginTop:'30px'}} >
-				<div className="widget_wrapper" style={{ backgroundColor: '#D3D3D3' }}>
+				<div className="widget_wrapper" style={{ backgroundColor: '#D3D3D3', display:'flex', justifyContent:'space-around' }}>
 					<div className="container">
 						<div className="row">
-							<div className="col-lg-4 col-md-6 col-12">
-								<div className="widget widegt_about">
-									<div className="widget_title">
+							<div className="col-lg-4 col-md-6 col-12" style={{}}>
+								<div className="widget widegt_about" >
+									<div className="widget_title" style={{marginLeft:'-10px'}}>
 										<img src={Logo} style={{ width: '190px' }} className="img-fluid" alt="" />
 									</div>
 									<p>At ScaledAI, our mission is to deliver cutting-edge technology that empowers customers to serve society, drive positive change, and enhance quality of life. We pioneer transformative digital solutions to enable optimal efficiency, security, and innovation for global development.</p>
@@ -30,7 +30,7 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 col-sm-12">
-								<div className="widget widget_link">
+								<div className="widget widget_link" style={{marginLeft:'90px'}}>
 									<div className="widget_title" style={{marginLeft:'30px'}}>
 										<h4 style={{marginTop:'25px'}}>Links</h4>
 									</div>
@@ -42,8 +42,8 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 col-sm-12">
-								<div className="widget widget_contact">
-									<div className="widget_title">
+								<div className="widget widget_contact"style={{marginLeft:'40px'}}>
+									<div className="widget_title" >
 										<h4 style={{marginTop:'25px'}}>Contact Us</h4>
 									</div>
 									<div className="contact_info">
