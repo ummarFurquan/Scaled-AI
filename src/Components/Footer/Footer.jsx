@@ -32,7 +32,7 @@ const Footer = () => {
 							<div className="col-lg-4 col-md-6 col-sm-12">
 								<div className="widget widget_link" style={{marginLeft:'90px'}}>
 									<div className="widget_title" style={{marginLeft:'30px'}}>
-										<h4 style={{marginTop:'25px'}}>Links</h4>
+										<h4 style={{marginTop:'30px'}}>Links</h4>
 									</div>
 									<ul>
 										<li><Link to='/about'>About Us</Link></li>
